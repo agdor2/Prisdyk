@@ -1,311 +1,250 @@
+
 name: Uppdatera Prisdyks fyndflöde
 
 on:
-
   workflow_dispatch:
-
   schedule:
-
     - cron: "17,47 * * * *"
 
 permissions:
-
   contents: write
 
 jobs:
-
   update-feed:
-
     runs-on: ubuntu-latest
-
     steps:
-
       - name: Hämta repository
-
         uses: actions/checkout@v4
 
       - name: Hämta tips och leta produktbilder
-
         run: |
-
           python - <<'PY'
-
           import json
-
           import re
-
           import urllib.request
-
           import xml.etree.ElementTree as ET
-
           from html.parser import HTMLParser
-
           from urllib.parse import urljoin, urlparse
-
           from datetime import datetime, timezone
 
           FEED_URL = "https://m.sweclockers.com/feeds/forum/trad/999559"
+          USER_AGENT = "Mozilla/5.0 (compatible; Prisdyk/1.0; +https://agdor2.github.io/Prisdyk/)"
 
-          USER_AGENT = "Prisdyk/1.0 (+https://agdor2.github.io/Prisdyk/)"
+          def jsonld_images(value):
+              found = []
+              if isinstance(value, dict):
+                  image = value.get("image")
+                  if isinstance(image, str):
+                      found.append(image)
+                  elif isinstance(image, dict):
+                      url = image.get("url") or image.get("contentUrl")
+                      if isinstance(url, str):
+                          found.append(url)
+                  elif isinstance(image, list):
+                      for entry in image:
+                          if isinstance(entry, str):
+                              found.append(entry)
+                          elif isinstance(entry, dict):
+                              url = entry.get("url") or entry.get("contentUrl")
+                              if isinstance(url, str):
+                                  found.append(url)
+                  for child in value.values():
+                      if isinstance(child, (dict, list)):
+                          found.extend(jsonld_images(child))
+              elif isinstance(value, list):
+                  for child in value:
+                      found.extend(jsonld_images(child))
+              return found
 
           class PageMeta(HTMLParser):
-
               def __init__(self):
-
                   super().__init__()
-
                   self.images = []
-
                   self.links = []
+                  self.in_jsonld = False
+                  self.jsonld_parts = []
 
               def handle_starttag(self, tag, attrs):
-
                   attrs = dict(attrs)
-
-                  if tag.lower() == "meta":
-
+                  tag = tag.lower()
+                  if tag == "meta":
                       key = (attrs.get("property") or attrs.get("name") or "").lower()
-
                       if key in ("og:image", "og:image:url", "twitter:image", "twitter:image:src"):
-
                           value = attrs.get("content", "").strip()
-
                           if value:
-
                               self.images.append(value)
-
-                  elif tag.lower() == "a":
-
+                  elif tag == "link":
+                      rel = (attrs.get("rel") or "").lower().split()
+                      if "image_src" in rel and attrs.get("href"):
+                          self.images.append(attrs["href"].strip())
+                  elif tag == "script" and (attrs.get("type") or "").lower().split(";")[0] == "application/ld+json":
+                      self.in_jsonld = True
+                      self.jsonld_parts = []
+                  elif tag == "a":
                       href = attrs.get("href", "").strip()
-
                       if href.startswith("https://"):
-
                           self.links.append(href)
 
+              def handle_data(self, data):
+                  if self.in_jsonld:
+                      self.jsonld_parts.append(data)
+
+              def handle_endtag(self, tag):
+                  if tag.lower() == "script" and self.in_jsonld:
+                      try:
+                          parsed = json.loads("".join(self.jsonld_parts))
+                          self.images.extend(jsonld_images(parsed))
+                      except Exception:
+                          pass
+                      self.in_jsonld = False
+                      self.jsonld_parts = []
+
           def get_text(node, name):
-
               for el in node.iter():
-
                   if el.tag.split("}")[-1].lower() == name.lower():
-
                       return (el.text or "").strip()
-
               return ""
 
           def extract_product_url(description):
-
               parser = PageMeta()
-
               try:
-
                   parser.feed(description or "")
-
               except Exception:
-
                   pass
-
               ignored = (
-
                   "sweclockers.com", "reddit.com", "prisjakt.nu",
-
-                  "pricerunner.se", "youtube.com"
-
+                  "pricerunner.se", "youtube.com", "youtu.be"
               )
-
               for href in parser.links:
-
                   host = urlparse(href).netloc.lower()
-
                   if host and not any(domain in host for domain in ignored):
-
                       return href
-
               return ""
 
           request = urllib.request.Request(
-
               FEED_URL, headers={"User-Agent": USER_AGENT}
-
           )
-
           with urllib.request.urlopen(request, timeout=25) as response:
-
-              xml_data = response.read()
-
-          root = ET.fromstring(xml_data)
+              root = ET.fromstring(response.read())
 
           items = []
-
           for node in root.iter():
-
               if node.tag.split("}")[-1].lower() != "item":
-
                   continue
-
               title = get_text(node, "title")
-
               link = get_text(node, "link")
-
               description = get_text(node, "encoded") or get_text(node, "description")
-
               pub_date = get_text(node, "pubDate")
-
               if title or description:
-
                   items.append({
-
                       "title": title,
-
                       "description": description,
-
                       "content": description,
-
                       "link": link,
-
                       "productUrl": extract_product_url(description),
-
                       "pubDate": pub_date
-
                   })
 
           if not items:
-
               raise SystemExit("Inga RSS-tips hittades.")
 
-          # Återanvänd bildadresser från tidigare körningar.
-
           previous_images = {}
-
           try:
-
               with open("deals.json", "r", encoding="utf-8") as old_file:
-
                   old_data = json.load(old_file)
-
               for old_item in old_data.get("items", []):
-
                   old_url = old_item.get("productUrl", "")
-
                   old_image = old_item.get("image", "")
-
                   if old_url and old_image:
-
                       previous_images[old_url] = old_image
-
           except (OSError, ValueError):
-
               pass
 
           inspected = 0
+          image_hits = 0
 
           for item in items[:100]:
-
               product_url = item.get("productUrl", "")
-
               if not product_url:
-
                   continue
-
               if product_url in previous_images:
-
                   item["image"] = previous_images[product_url]
-
                   continue
-
-              # Begränsa antalet nya produktsidor per körning.
-
-              if inspected >= 10:
-
+              if inspected >= 25:
                   continue
 
               inspected += 1
-
               try:
-
                   page_request = urllib.request.Request(
-
-                      product_url, headers={"User-Agent": USER_AGENT}
-
+                      product_url,
+                      headers={
+                          "User-Agent": USER_AGENT,
+                          "Accept": "text/html,application/xhtml+xml"
+                      }
                   )
-
-                  with urllib.request.urlopen(page_request, timeout=8) as response:
-
+                  with urllib.request.urlopen(page_request, timeout=10) as response:
                       page_url = response.geturl()
-
                       content_type = response.headers.get("Content-Type", "")
-
                       if "text/html" not in content_type.lower():
-
                           continue
-
-                      page_html = response.read(1500000).decode(
-
+                      page_html = response.read(2000000).decode(
                           "utf-8", errors="replace"
-
                       )
 
                   meta = PageMeta()
-
                   meta.feed(page_html)
+                  seen = set()
 
                   for image_url in meta.images:
+                      candidate = urljoin(page_url, image_url.strip())
+                      parsed = urlparse(candidate)
+                      if parsed.scheme not in ("https", "http") or not parsed.netloc:
+                          continue
+                      if candidate in seen:
+                          continue
+                      seen.add(candidate)
 
-                      candidate = urljoin(page_url, image_url)
+                      if re.search(
+                          r"(?:favicon|sprite|logo|avatar|tracking|pixel)",
+                          parsed.path, re.I
+                      ):
+                          continue
 
-                      if candidate.startswith("https://"):
-
-                          item["image"] = candidate
-
-                          previous_images[product_url] = candidate
-
-                          print(f"Hittade produktbild för: {product_url}")
-
-                          break
+                      item["image"] = candidate
+                      previous_images[product_url] = candidate
+                      image_hits += 1
+                      print(f"Hittade möjlig produktbild för: {product_url}")
+                      break
 
               except Exception as exc:
-
                   print(f"Kunde inte hämta bild från {product_url}: {exc}")
 
           output = {
-
               "status": "ok",
-
               "source": "SweClockers",
-
               "updatedAt": datetime.now(timezone.utc).isoformat(),
-
               "items": items[:100]
-
           }
 
           with open("deals.json", "w", encoding="utf-8") as output_file:
-
               json.dump(output, output_file, ensure_ascii=False, indent=2)
-
               output_file.write("\n")
 
           print(f"Sparade {len(items[:100])} fyndtips.")
-
+          print(
+              f"Kontrollerade {inspected} nya produktsidor "
+              f"och hittade {image_hits} nya bildadresser."
+          )
           PY
 
       - name: Spara uppdaterat flöde
-
         run: |
-
           git config user.name "github-actions[bot]"
-
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add deals.json
-
           if git diff --cached --quiet; then
-
             echo "Inga nya ändringar."
-
           else
-
-            git commit -m "Uppdatera Prisdyks fyndflöde med bildadresser"
-
+            git commit -m "Förbättra hämtning av produktbilder"
             git push
-
           fi
