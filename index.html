@@ -1,69 +1,347 @@
 <!doctype html>
-<html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prisdyk – riktiga fyndtips</title>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prisdyk – hitta fynden</title>
+<meta name="description" content="Samlar fyndtips för svenska konsumenter.">
 <style>
-:root{--ink:#102d2b;--paper:#f7f7f1;--lime:#d8f36a;--mint:#d9eee4;--muted:#5e706d;--line:#dfe5dc}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{width:min(1100px,calc(100% - 30px));margin:auto}header{padding:17px 0;border-bottom:1px solid var(--line)}.nav{display:flex;justify-content:space-between;align-items:center;gap:15px}.brand{font-weight:950;font-size:1.35rem;text-decoration:none;letter-spacing:-.05em}.logo{display:inline-grid;place-items:center;background:var(--lime);border-radius:12px;width:36px;height:36px;margin-right:7px}nav{display:flex;gap:18px}nav a{color:var(--ink);text-decoration:none;font-weight:700;font-size:.9rem}.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:25px;align-items:center;padding:48px 0 30px}.eyebrow{display:inline-block;border:1px solid var(--line);background:white;border-radius:50px;padding:6px 12px;font-size:.8rem;font-weight:800}h1{font-size:clamp(2.8rem,6vw,4.7rem);line-height:.98;letter-spacing:-.07em;margin:18px 0}.hero em{font-style:normal;color:#62844a}.lead{color:var(--muted);max-width:600px;font-size:1.08rem}.btn{display:inline-block;padding:12px 16px;border-radius:12px;background:var(--ink);color:white;text-decoration:none;font-weight:800;margin:8px 8px 0 0}.btn.lime{background:var(--lime);color:var(--ink)}.art{background:var(--mint);border-radius:28px;min-height:240px;padding:20px;display:flex;align-items:end;position:relative;overflow:hidden}.sun{position:absolute;right:25px;top:20px;background:var(--lime);width:140px;height:140px;border-radius:50%}.waves{position:absolute;background:#a4d6bf;border-radius:50%;height:130px;left:-10%;right:-10%;bottom:-65px}.note{position:relative;background:white;border-radius:16px;padding:15px;max-width:260px}.note b{display:block}.note span{font-size:.88rem;color:var(--muted)}.status{padding:14px 16px;border-radius:13px;background:#edf4df;border:1px solid #d7e6bd;margin:0 0 20px;font-size:.92rem}.status.warn{background:#fff8e9;border-color:#e7d3a5;color:#684e22}.head{display:flex;justify-content:space-between;gap:15px;align-items:end;margin:22px 0 16px}.head h2{margin:0;font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.05em}.head p{margin:5px 0 0;color:var(--muted)}.tools{display:grid;grid-template-columns:1fr 210px;gap:10px;margin:16px 0 12px}input,select{padding:12px;border:1px solid var(--line);border-radius:12px;background:white;color:var(--ink);font:inherit;min-width:0}.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px}.tab{border:1px solid var(--line);background:white;border-radius:50px;padding:8px 13px;font-weight:800;cursor:pointer}.tab.active{background:var(--ink);color:white}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:white;border:1px solid var(--line);border-radius:17px;padding:16px;display:flex;flex-direction:column;min-width:0}.row{display:flex;justify-content:space-between;gap:7px;align-items:center}.pill{background:var(--mint);border-radius:50px;padding:5px 9px;font-size:.74rem;font-weight:850}.gold{background:#fff0d9;color:#855019}.card h3{font-size:1.05rem;line-height:1.25;margin:14px 0 7px;overflow-wrap:anywhere}.desc{font-size:.87rem;color:var(--muted);margin:0 0 12px}.price{font-size:1.35rem;font-weight:950}.old{text-decoration:line-through;color:#7b8985;font-size:.9rem;margin-left:7px}.metric{font-size:.82rem;font-weight:800;color:#52713d;margin:6px 0 10px}.card .btn{margin:0;text-align:center;font-size:.9rem}.meta{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:.75rem;margin-top:9px;flex-wrap:wrap}.empty{grid-column:1/-1;border:1px dashed #b9c7be;border-radius:16px;padding:28px;text-align:center;color:var(--muted)}.sources{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0 45px}.source{padding:15px;background:white;border:1px solid var(--line);border-radius:15px;text-decoration:none}.source b{display:block}.source span{font-size:.82rem;color:var(--muted)}.about{background:var(--ink);color:white;padding:24px;border-radius:22px;margin:28px 0 50px}.about p{color:#d0dfd9;margin-bottom:0}footer{border-top:1px solid var(--line);padding:22px 0 32px;color:var(--muted);font-size:.83rem}footer a{color:var(--ink)}@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:30px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sources{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){nav a:nth-child(2){display:none}.grid{grid-template-columns:1fr}.tools{grid-template-columns:1fr}.head{align-items:start;flex-direction:column}.hero h1{font-size:3rem}.sources{grid-template-columns:1fr 1fr}}
-</style></head><body>
-<header><div class="wrap nav"><a class="brand" href="#"><span class="logo">↘</span>prisdyk</a><nav><a href="#fynd">Topplistor</a><a href="#kallor">Fyndkällor</a><a href="#om">Så fungerar det</a></nav></div></header>
-<main><section class="wrap hero"><div><span class="eyebrow">● Fyndspaning för Sverige</span><h1>Hitta fynden.<br><em>Inte bara rean.</em></h1><p class="lead">Prisdyk samlar fyndtips från öppna flöden och länkar till originalkällan. Sortera tips efter färskhet, pris och angiven rabatt – utan att låtsas att obekräftade priser är verifierade.</p><a class="btn" href="#fynd">Se aktuella tips ↓</a><a class="btn lime" href="#kallor">Fler fyndkällor ↗</a></div><div class="art"><div class="sun"></div><div class="waves"></div><div class="note"><b>Från fyndtips till bra köp.</b><span>Kontrollera alltid pris, modell och frakt hos butiken.</span></div></div></section>
-<section class="wrap" id="fynd"><div id="status" class="status">Försöker hämta det senaste fyndflödet…</div><div class="head"><div><h2>Fyndlistan</h2><p>Liveflöde från SweClockers – öppna källtipset för detaljer.</p></div><span id="updated" class="meta">Ingen uppdatering ännu</span></div><div class="tools"><input id="search" type="search" placeholder="Sök produkt, butik eller kategori…" aria-label="Sök fynd"><select id="category" aria-label="Filtrera kategori"><option value="">Alla fynd</option><option>Teknik</option><option>Hem</option><option>Friluftsliv</option><option>Övrigt</option></select></div><div class="tabs" role="group" aria-label="Topplistor"><button class="tab active" data-sort="latest">Senaste tipsen</button><button class="tab" data-sort="cheap">Billigast</button><button class="tab" data-sort="discount">Störst angiven rabatt</button><button class="tab" data-sort="price">Lägsta pris i kronor</button></div><div class="grid" id="deals" aria-live="polite"><div class="empty">Hämtar fyndtips…</div></div><p class="meta">Priser och rabatter läses från källtipset när det går. De är inte oberoende verifierade.</p></section>
-<section class="wrap" id="kallor"><div class="head"><div><h2>Fler ställen att fynda</h2><p>Öppna fyndkällor för svenska konsumenter.</p></div></div><div class="sources">
-<a class="source" href="https://www.sweclockers.com/forum/trad/999559" target="_blank" rel="noopener"><b>SweClockers – Dagens fynd ↗</b><span>Communitytips, bland annat teknik.</span></a>
-<a class="source" href="https://www.dealguru.se/" target="_blank" rel="noopener"><b>DealGuru ↗</b><span>Svenska erbjudanden och medlemstips.</span></a>
-<a class="source" href="https://www.prisjakt.nu/deals" target="_blank" rel="noopener"><b>Prisjakt – Deals ↗</b><span>Prisjämförelser och kampanjer.</span></a>
-<a class="source" href="https://www.amazon.se/gp/goldbox" target="_blank" rel="noopener"><b>Amazon.se ↗</b><span>Butikens egna aktuella erbjudanden.</span></a>
-<a class="source" href="https://www.pricerunner.se/" target="_blank" rel="noopener"><b>PriceRunner ↗</b><span>Jämför priser hos svenska butiker.</span></a>
-<a class="source" href="https://www.fyndiq.se/" target="_blank" rel="noopener"><b>Fyndiq ↗</b><span>Marknadsplats med många kategorier.</span></a>
-<a class="source" href="https://www.komplett.se/kampanjer" target="_blank" rel="noopener"><b>Komplett – Kampanjer ↗</b><span>Teknik och datortillbehör.</span></a>
-<a class="source" href="https://www.elgiganten.se/campaign" target="_blank" rel="noopener"><b>Elgiganten ↗</b><span>Elektronik och vitvaror.</span></a>
-</div></section><section class="wrap" id="om"><div class="about"><h2>Så ska topplistorna läsas</h2><p><strong>Billigast</strong> sorterar tips där ett pris kan läsas ut. <strong>Störst angiven rabatt</strong> använder bara procentsats eller jämförelsepris som faktiskt finns i källtipset. <strong>Lägsta pris i kronor</strong> sorterar efter uppgivet pris, inte efter kvalitet eller värde. Det här är en första live-integration, inte en fullständig genomsökning av alla svenska butiker. Amazon-priser hämtas inte automatiskt.</p></div></section></main>
-<footer><div class="wrap"><strong>↘ prisdyk</strong><p>Fristående fyndguide. Priser och lager kan ändras. Kontrollera alltid produktvariant, frakt, säljare och returvillkor hos butiken. Om liveflödet inte går att hämta visar sidan ett fel i stället för påhittade fynd.</p></div></footer>
+:root{--bg:#f5f7f2;--surface:#fff;--ink:#18332c;--muted:#697a72;--green:#245b45;--lime:#d9f36a;--border:#e1e8df;--soft:#edf4e9}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit}
+button,input,select{font:inherit}
+.wrap{width:min(1080px,calc(100% - 32px));margin:auto}
+header{background:var(--surface);border-bottom:1px solid var(--border)}
+.nav{min-height:66px;display:flex;justify-content:space-between;align-items:center;gap:18px}
+.brand{text-decoration:none;font-weight:950;font-size:1.4rem;letter-spacing:-1px}
+.logo{display:inline-grid;place-items:center;background:var(--lime);width:36px;height:36px;margin-right:7px;border-radius:12px}
+nav{display:flex;gap:20px}
+nav a{text-decoration:none;font-weight:700;font-size:.9rem}
+.hero{padding:44px 0 28px;display:grid;grid-template-columns:1.3fr .7fr;gap:24px;align-items:center}
+.eyebrow{display:inline-block;padding:6px 11px;border-radius:30px;background:var(--soft);font-size:.8rem;font-weight:800}
+h1{margin:16px 0 12px;max-width:650px;font-size:clamp(2.6rem,6vw,4.5rem);line-height:.99;letter-spacing:-.065em}
+h1 em{font-style:normal;color:var(--green)}
+.lead{color:var(--muted);max-width:580px}
+.hero-art{min-height:205px;background:#dcefe2;border-radius:26px;padding:20px;display:flex;align-items:end;overflow:hidden;position:relative}
+.sun{position:absolute;width:130px;height:130px;border-radius:50%;background:var(--lime);top:18px;right:20px}
+.wave{position:absolute;width:120%;height:95px;left:-10%;bottom:-38px;background:#a8d5ba;border-radius:50%}
+.art-note{position:relative;background:white;padding:14px 16px;border-radius:14px;max-width:245px;font-weight:800}
+.art-note small{display:block;color:var(--muted);font-weight:500;margin-top:4px}
+.button{display:inline-block;border:0;border-radius:11px;padding:11px 15px;background:var(--green);color:white;text-decoration:none;text-align:center;font-weight:800;cursor:pointer}
+.button:hover{opacity:.88}
+.button.light{background:var(--lime);color:var(--ink)}
+main{padding-bottom:25px}
+.status{margin:10px 0 24px;padding:12px 15px;border:1px solid #d5e6cd;border-radius:12px;background:#edf5e8;color:#31583a;font-size:.9rem}
+.status.warn{background:#fff3e5;border-color:#efd4ad;color:#704b20}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:18px 0 15px}
+h2{margin:0;font-size:clamp(1.7rem,4vw,2.25rem);letter-spacing:-.045em}
+.section-head p{margin:5px 0 0;color:var(--muted)}
+.updated{font-size:.78rem;color:var(--muted);text-align:right}
+.controls{display:grid;grid-template-columns:1fr 205px;gap:10px;margin:18px 0 12px}
+input,select{width:100%;min-width:0;padding:12px 13px;border:1px solid var(--border);border-radius:11px;background:white;color:var(--ink)}
+input:focus,select:focus,button:focus-visible,a:focus-visible{outline:3px solid #a4c86e;outline-offset:2px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 19px}
+.tab{border:1px solid var(--border);border-radius:30px;background:white;color:var(--ink);padding:8px 13px;font-size:.87rem;font-weight:800;cursor:pointer}
+.tab.active{background:var(--ink);color:white;border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.card{min-width:0;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--border);border-radius:17px;padding:17px;box-shadow:0 3px 12px #18332c08}
+.card-top{display:flex;justify-content:space-between;align-items:center;gap:7px}
+.tag{display:inline-block;border-radius:30px;padding:5px 9px;background:var(--soft);font-size:.73rem;font-weight:800}
+.tag.discount{background:#fff0d9;color:#825016}
+.card h3{margin:13px 0 7px;font-size:1.03rem;line-height:1.3;overflow-wrap:anywhere}
+.desc{color:var(--muted);font-size:.86rem;line-height:1.45;margin:0 0 13px;overflow-wrap:anywhere}
+.price-row{margin-top:auto;padding-top:5px}
+.price{font-size:1.35rem;font-weight:950;letter-spacing:-.03em}
+.old{margin-left:7px;color:var(--muted);font-size:.85rem;text-decoration:line-through}
+.metric{color:var(--green);font-size:.8rem;font-weight:800;margin:5px 0 13px}
+.card .button{width:100%;font-size:.9rem}
+.card-foot{display:flex;justify-content:space-between;gap:8px;margin-top:11px;color:var(--muted);font-size:.74rem}
+.empty{grid-column:1/-1;text-align:center;border:1px dashed #c5d2c6;background:#ffffff80;border-radius:15px;padding:28px 18px;color:var(--muted)}
+.disclaimer{margin:15px 0 28px;color:var(--muted);font-size:.8rem}
+.sources{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin:18px 0 35px}
+.source{display:block;background:white;border:1px solid var(--border);border-radius:13px;padding:13px;text-decoration:none}
+.source b{display:block;font-size:.9rem}
+.source span{display:block;color:var(--muted);font-size:.78rem;margin-top:4px}
+.source:hover{border-color:#9db8a0}
+.about{background:var(--ink);color:white;border-radius:20px;padding:23px;margin:25px 0 35px}
+.about p{color:#d5e2d9;margin-bottom:0}
+footer{border-top:1px solid var(--border);padding:23px 0 32px;color:var(--muted);font-size:.82rem}
+footer p{margin-bottom:0}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:30px}.hero-art{min-height:160px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sources{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.wrap{width:calc(100% - 24px)}nav{gap:12px}nav a{font-size:.8rem}nav a:last-child{display:none}.hero h1{font-size:3rem}.controls{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.updated{text-align:left}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap nav">
+<a class="brand" href="#"><span class="logo">↘</span>prisdyk</a>
+<nav><a href="#fynd">Fyndlistan</a><a href="#kallor">Fyndkällor</a><a href="#om">Om Prisdyk</a></nav>
+</div>
+</header>
+
+<section class="wrap hero">
+<div>
+<span class="eyebrow">● Fyndspaning för Sverige</span>
+<h1>Hitta fynden.<br><em>Slipp bruset.</em></h1>
+<p class="lead">Fyndtips samlade på ett ställe. Sök, sortera och gå vidare till originaltipset för att kontrollera priset.</p>
+<a class="button" href="#fynd">Se aktuella tips ↓</a>
+<a class="button light" href="#kallor">Fler fyndkällor</a>
+</div>
+<div class="hero-art"><div class="sun"></div><div class="wave"></div><div class="art-note">Bra fynd, mindre letande.<small>Kontrollera alltid pris och frakt före köp.</small></div></div>
+</section>
+
+<main class="wrap">
+<section id="fynd">
+<div id="status" class="status">Hämtar aktuella fyndtips…</div>
+<div class="section-head">
+<div><h2>Fyndlistan</h2><p>Enklare kort med det viktigaste först.</p></div>
+<div id="updated" class="updated">Väntar på uppdatering</div>
+</div>
+<div class="controls">
+<input id="search" type="search" placeholder="Sök produkt eller kategori…" aria-label="Sök bland fyndtips">
+<select id="category" aria-label="Filtrera kategori">
+<option value="">Alla kategorier</option><option value="Teknik">Teknik</option><option value="Hem">Hem</option><option value="Friluftsliv">Friluftsliv</option><option value="Övrigt">Övrigt</option>
+</select>
+</div>
+<div class="tabs" aria-label="Sortering">
+<button class="tab active" data-sort="latest">Senaste</button>
+<button class="tab" data-sort="cheap">Lägsta angivna pris</button>
+<button class="tab" data-sort="discount">Störst angiven rabatt</button>
+</div>
+<div class="grid" id="deals" aria-live="polite"><div class="empty">Hämtar fyndtips…</div></div>
+<p class="disclaimer">Pris och rabatt visas bara när de kan utläsas ur tipset. Uppgifterna är inte oberoende verifierade. Tips utan läsbart pris visas också.</p>
+</section>
+
+<section id="kallor">
+<div class="section-head"><div><h2>Fler fyndkällor</h2><p>Öppna sidor där du kan leta vidare.</p></div></div>
+<div class="sources">
+<a class="source" href="https://www.sweclockers.com/forum/trad/999559" target="_blank" rel="noopener noreferrer"><b>SweClockers ↗</b><span>Communitytips och teknikfynd.</span></a>
+<a class="source" href="https://www.dealguru.se/" target="_blank" rel="noopener noreferrer"><b>DealGuru ↗</b><span>Svenska erbjudanden.</span></a>
+<a class="source" href="https://www.prisjakt.nu/deals" target="_blank" rel="noopener noreferrer"><b>Prisjakt ↗</b><span>Deals och prisjämförelser.</span></a>
+<a class="source" href="https://www.pricerunner.se/" target="_blank" rel="noopener noreferrer"><b>PriceRunner ↗</b><span>Jämför priser i butiker.</span></a>
+<a class="source" href="https://www.amazon.se/gp/goldbox" target="_blank" rel="noopener noreferrer"><b>Amazon.se ↗</b><span>Butikens egna erbjudanden.</span></a>
+<a class="source" href="https://www.fyndiq.se/" target="_blank" rel="noopener noreferrer"><b>Fyndiq ↗</b><span>Fynd i många kategorier.</span></a>
+<a class="source" href="https://www.komplett.se/kampanjer" target="_blank" rel="noopener noreferrer"><b>Komplett ↗</b><span>Teknik och elektronik.</span></a>
+<a class="source" href="https://www.elgiganten.se/campaign" target="_blank" rel="noopener noreferrer"><b>Elgiganten ↗</b><span>Elektronik och vitvaror.</span></a>
+</div>
+</section>
+
+<section id="om" class="about">
+<h2>Så fungerar Prisdyk</h2>
+<p>Prisdyk hämtar just nu tips från SweClockers. Listorna sorterar efter information som faktiskt går att läsa ur tipsen. Det betyder inte att vi har jämfört alla svenska butiker eller verifierat att en rabatt är den största på marknaden. Kontrollera alltid produktvariant, frakt, lagerstatus och säljare innan köp.</p>
+</section>
+</main>
+
+<footer><div class="wrap"><strong>↘ prisdyk</strong><p>Fristående fyndguide. Inga priser eller produkter hittas på när flödet inte fungerar.</p></div></footer>
+
 <script>
 const FEED="./deals.json";
-let items=[],sortMode="latest";const $=id=>document.getElementById(id);
-function textOnly(s){let d=document.createElement("div");d.innerHTML=s||"";return(d.textContent||"").replace(/\u00a0/g," ").replace(/\s+/g," ").trim()}
-function priceFrom(s){let regs=[/(?:nupris|aktuellt pris|pris)\s*[:=]?\s*(\d[\d\s.,]*)\s*(?:kr|:-|SEK)\b/i,/(\d[\d\s.,]*)\s*kr\b/i,/(\d[\d\s.,]*)\s*:-/i];for(let r of regs){let m=s.match(r);if(m){let n=Number(m[1].replace(/\s/g,"").replace(/\.(?=\d{3}\b)/g,"").replace(",", "."));if(n>0&&n<1e7)return n}}return null}
-function oldFrom(s,p){let m=s.match(/(?:ordinarie|tidigare|före|normalpris|rek\.?\s*pris|originalpris)\s*(?:pris)?\s*[:=]?\s*(\d[\d\s.,]*)\s*(?:kr|:-|SEK)\b/i);if(!m)return null;let n=Number(m[1].replace(/\s/g,"").replace(/\.(?=\d{3}\b)/g,"").replace(",", "."));return n>p?n:null}
-function discountFrom(s,p,o){let m=s.match(/[-−]\s*(\d{1,2})\s*%/i)||s.match(/(\d{1,2})\s*%\s*(?:rabatt|off|billigare)/i);if(m&&+m[1]>0&&+m[1]<100)return +m[1];return p&&o?Math.round((o-p)/o*100):null}
-function cat(s){if(/grafik|gpu|processor|cpu|dator|skärm|ssd|ram|minne|hörlur|mobil|surfplatta|router|tangentbord|mus|kamera|elektronik|laddare|usb|tv\b/i.test(s))return"Teknik";if(/tält|pannlampa|friluft|vandring|sovsäck|ryggsäck|cykel/i.test(s))return"Friluftsliv";if(/hem|köks|förvaring|dammsug|städ|möbel|belysning|lampa|katt|hund|djur|foder/i.test(s))return"Hem";return"Övrigt"}
-function parse(x){let raw=textOnly((x.content||"")+" "+(x.description||"")),title=textOnly(x.title||""),m=raw.match(/Produkt\s*:\s*([^\n\r|]+)/i),name=(m?m[1]:title)||"Fyndtips",p=priceFrom(raw),o=oldFrom(raw,p),d=document.createElement("div");d.innerHTML=x.content||x.description||"";let links=[...d.querySelectorAll("a[href]")].map(a=>a.href).filter(h=>/^https?:/.test(h));let link=links.find(h=>!/(sweclockers\.com|reddit\.com|prisjakt\.nu)/i.test(h))||x.link||"https://www.sweclockers.com/forum/trad/999559";return{name:name.trim().slice(0,160),raw,price:p,old:o,discount:discountFrom(raw,p,o),category:cat(name+" "+raw),link,source:x.link||"https://www.sweclockers.com/forum/trad/999559",date:x.pubDate?new Date(x.pubDate):null}}
-function money(n){return n==null?"Pris saknas":new Intl.NumberFormat("sv-SE",{maximumFractionDigits:0}).format(n)+" kr"}
-function render(){let q=$("search").value.toLocaleLowerCase("sv").trim(),c=$("category").value;let list=items.filter(x=>(!c||x.category===c)&&(`${x.name} ${x.raw} ${x.category}`).toLocaleLowerCase("sv").includes(q));if(sortMode==="cheap"||sortMode==="price")list.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));if(sortMode==="discount")list.sort((a,b)=>(b.discount??-1)-(a.discount??-1));if(sortMode==="latest")list.sort((a,b)=>(b.date?.getTime()||0)-(a.date?.getTime()||0));$("deals").innerHTML="";if(!list.length){$("deals").innerHTML='<div class="empty">Inga matchande fyndtips. Prova ett annat filter eller öppna en av fyndkällorna ovan.</div>';return}for(let x of list){let card=document.createElement("article");card.className="card";card.innerHTML=`<div class="row"><span class="pill">${x.category}</span><span class="pill gold">${x.discount!=null?"−"+x.discount+"% angivet":"Fyndtips"}</span></div><h3></h3><p class="desc"></p><div><span class="price">${money(x.price)}</span>${x.old?`<span class="old">${money(x.old)}</span>`:""}</div><div class="metric">${x.discount!=null?"Angiven rabatt: "+x.discount+"%":"Ingen rabatt kunde utläsas"}</div><a class="btn" target="_blank" rel="noopener noreferrer">Öppna fyndtipset ↗</a><div class="meta"><span>SweClockers RSS</span><span class="date"></span></div>`;card.querySelector("h3").textContent=x.name;card.querySelector(".desc").textContent=x.price==null?"Ingen läsbar prisuppgift hittades. Öppna källtipset för detaljer.":(x.old?"Uppgivet pris och jämförelsepris från tipset – kontrollera hos butiken.":"Uppgivet pris från tipset, inte oberoende verifierat.");card.querySelector("a").href=x.link;card.querySelector(".date").textContent=x.date&&!isNaN(x.date)?x.date.toLocaleDateString("sv-SE"):"Datum saknas";$("deals").appendChild(card)}}
+const SOURCE_URL="https://www.sweclockers.com/forum/trad/999559";
+let items=[];
+let sortMode="latest";
+const $=id=>document.getElementById(id);
+
+function textOnly(html){
+const el=document.createElement("div");
+el.innerHTML=html||"";
+return(el.textContent||"").replace(/\u00a0/g," ").replace(/\s+/g," ").trim();
+}
+
+function numberFromText(value){
+const normalized=value.replace(/\s/g,"").replace(/\.(?=\d{3}(?:\D|$))/g,"").replace(",",".");
+const number=Number(normalized);
+return Number.isFinite(number)&&number>0&&number<10000000?number:null;
+}
+
+function priceFrom(text){
+const patterns=[
+/(?:nupris|aktuellt pris|pris)\s*[:=]?\s*(\d[\d\s.,]*)\s*(?:kr|:-|SEK)\b/i,
+/(\d[\d\s.,]*)\s*kr\b/i,
+/(\d[\d\s.,]*)\s*:-/
+];
+for(const pattern of patterns){
+const match=text.match(pattern);
+if(match){const number=numberFromText(match[1]);if(number!==null)return number;}
+}
+return null;
+}
+
+function oldPriceFrom(text,currentPrice){
+if(currentPrice===null)return null;
+const pattern=/(?:ordinarie|tidigare|före|normalpris|rek\.?\s*pris|originalpris)\s*(?:pris)?\s*[:=]?\s*(\d[\d\s.,]*)\s*(?:kr|:-|SEK)\b/i;
+const match=text.match(pattern);
+if(!match)return null;
+const number=numberFromText(match[1]);
+return number!==null&&number>currentPrice?number:null;
+}
+
+function discountFrom(text,price,oldPrice){
+const match=text.match(/[-−]\s*(\d{1,2})\s*%/i)||text.match(/(\d{1,2})\s*%\s*(?:rabatt|off|billigare)/i);
+if(match&&Number(match[1])>0&&Number(match[1])<100)return Number(match[1]);
+if(price!==null&&oldPrice!==null)return Math.round((oldPrice-price)/oldPrice*100);
+return null;
+}
+
+function categoryFrom(text){
+if(/grafik|gpu|processor|cpu|dator|skärm|ssd|ram|minne|hörlur|mobil|surfplatta|router|tangentbord|kamera|elektronik|laddare|usb|tv\b/i.test(text))return"Teknik";
+if(/tält|pannlampa|friluft|vandring|sovsäck|ryggsäck|cykel/i.test(text))return"Friluftsliv";
+if(/hem|köks|förvaring|dammsug|städ|möbel|belysning|lampa|katt|hund|djur|foder/i.test(text))return"Hem";
+return"Övrigt";
+}
+
+function shortSummary(raw,title){
+let summary=raw||"";
+summary=summary.replace(/https?:\/\/\S+/gi,"");
+summary=summary.replace(/\b(?:Produkt|Pris|Rabatt|Länk)\s*:\s*/gi,"");
+summary=summary.replace(title,"").replace(/\s+/g," ").trim();
+if(!summary)return"Öppna originaltipset för mer information.";
+if(summary.length>155)summary=summary.slice(0,152).replace(/\s+\S*$/,"")+"…";
+return summary;
+}
+
+function parseItem(item){
+const html=item.content||item.description||"";
+const raw=textOnly(html+" "+(item.description||""));
+const title=textOnly(item.title||"");
+const productMatch=raw.match(/(?:Produkt|Modell|Varunamn)\s*:\s*([^|]{3,120})/i);
+let name=(productMatch?productMatch[1]:title)||"Fyndtips";
+name=name.replace(/^\s*(?:dagens fynd|fyndtips?)\s*[:|–—-]*\s*/i,"").replace(/\s*[|–—]\s*(?:dagens fynd|fyndtips?)\s*$/i,"").replace(/\s+/g," ").trim();
+if(name.length>100)name=name.slice(0,97).trimEnd()+"…";
+const price=priceFrom(raw);
+const oldPrice=oldPriceFrom(raw,price);
+const discount=discountFrom(raw,price,oldPrice);
+const container=document.createElement("div");
+container.innerHTML=html;
+const links=[...container.querySelectorAll("a[href]")].map(a=>a.href).filter(href=>/^https?:/i.test(href));
+const productLink=links.find(href=>!/(sweclockers\.com|reddit\.com|prisjakt\.nu)/i.test(href));
+const link=productLink||item.link||SOURCE_URL;
+const date=item.pubDate?new Date(item.pubDate):null;
+return{name,summary:shortSummary(raw,name),price,oldPrice,discount,category:categoryFrom(name+" "+raw),link,date:date&&!Number.isNaN(date.getTime())?date:null,directLink:Boolean(productLink)};
+}
+
+function money(value){
+if(value===null||value===undefined)return"Pris saknas";
+return new Intl.NumberFormat("sv-SE",{maximumFractionDigits:0}).format(value)+" kr";
+}
+function dateLabel(date){return date?date.toLocaleDateString("sv-SE"):"Datum saknas";}
+
+function render(){
+const query=$("search").value.toLocaleLowerCase("sv").trim();
+const category=$("category").value;
+let list=items.filter(item=>{
+const matchesCategory=!category||item.category===category;
+const searchable=(item.name+" "+item.summary+" "+item.category).toLocaleLowerCase("sv");
+return matchesCategory&&searchable.includes(query);
+});
+if(sortMode==="cheap")list.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));
+else if(sortMode==="discount")list.sort((a,b)=>(b.discount??-1)-(a.discount??-1));
+else list.sort((a,b)=>(b.date?.getTime()??0)-(a.date?.getTime()??0));
+
+const grid=$("deals");
+grid.replaceChildren();
+if(!list.length){
+const empty=document.createElement("div");
+empty.className="empty";
+empty.textContent="Inga matchande tips. Prova en annan sökning eller kategori.";
+grid.appendChild(empty);
+return;
+}
+
+for(const item of list){
+const card=document.createElement("article");
+card.className="card";
+const top=document.createElement("div");
+top.className="card-top";
+const categoryTag=document.createElement("span");
+categoryTag.className="tag";
+categoryTag.textContent=item.category;
+top.appendChild(categoryTag);
+
+if(item.discount!==null){
+const discountTag=document.createElement("span");
+discountTag.className="tag discount";
+discountTag.textContent="−"+item.discount+"% angivet";
+top.appendChild(discountTag);
+}
+
+const title=document.createElement("h3");
+title.textContent=item.name;
+const desc=document.createElement("p");
+desc.className="desc";
+desc.textContent=item.summary;
+
+const priceRow=document.createElement("div");
+priceRow.className="price-row";
+const price=document.createElement("span");
+price.className="price";
+price.textContent=money(item.price);
+priceRow.appendChild(price);
+
+if(item.oldPrice!==null){
+const old=document.createElement("span");
+old.className="old";
+old.textContent=money(item.oldPrice);
+priceRow.appendChild(old);
+}
+
+const metric=document.createElement("div");
+metric.className="metric";
+metric.textContent=item.discount!==null?"Angiven rabatt: "+item.discount+"%":"Ingen säker rabattuppgift";
+
+const link=document.createElement("a");
+link.className="button";
+link.href=item.link;
+link.target="_blank";
+link.rel="noopener noreferrer";
+link.textContent=item.directLink?"Visa erbjudandet ↗":"Öppna originaltipset ↗";
+
+const foot=document.createElement("div");
+foot.className="card-foot";
+const source=document.createElement("span");
+source.textContent="SweClockers";
+const date=document.createElement("span");
+date.textContent=dateLabel(item.date);
+foot.append(source,date);
+card.append(top,title,desc,priceRow,metric,link,foot);
+grid.appendChild(card);
+}
+}
 
 async function load(){
-  try {
-    let r = await fetch(FEED + "?t=" + Date.now(), {cache:"no-store"});
-    if (!r.ok) throw Error("Fyndfilen svarade " + r.status);
-
-    let data = await r.json();
-    if (data.status !== "ok" || !Array.isArray(data.items)) {
-      throw Error("Fyndfilen kunde inte läsas");
-    }
-
-    items = data.items.map(parse).filter(x => x.name);
-    if (!items.length) throw Error("Inga läsbara tips i flödet");
-
-    $("status").textContent =
-      "Automatiskt uppdaterat flöde: " + items.length +
-      " tips. Priser och rabatter är uppgifter ur källtipset och inte oberoende verifierade.";
-
-    $("updated").textContent = "Senast uppdaterad " +
-      (data.updatedAt
-        ? new Date(data.updatedAt).toLocaleString("sv-SE", {
-            dateStyle:"short", timeStyle:"short"
-          })
-        : "okänt");
-
-    render();
-  } catch (e) {
-    $("status").className = "status warn";
-    $("status").textContent =
-      "Fyndflödet kunde inte hämtas (" + e.message +
-      "). Kontrollera GitHub Actions. Inga exempelprodukter visas.";
-
-    $("updated").textContent = "Flödet kunde inte läsas";
-    $("deals").innerHTML =
-      '<div class="empty">Inga fejkade produkter visas när liveflödet inte fungerar.</div>';
-  }
+try{
+const response=await fetch(FEED+"?t="+Date.now(),{cache:"no-store"});
+if(!response.ok)throw new Error("Fyndfilen svarade "+response.status);
+const data=await response.json();
+if(data.status!=="ok"||!Array.isArray(data.items))throw new Error("Fyndfilen kunde inte läsas");
+items=data.items.map(parseItem).filter(item=>item.name);
+if(!items.length)throw new Error("Inga läsbara tips i flödet");
+$("status").textContent="Flödet är igång – "+items.length+" fyndtips hämtade.";
+$("updated").textContent="Uppdaterat "+(data.updatedAt?new Date(data.updatedAt).toLocaleString("sv-SE",{dateStyle:"short",timeStyle:"short"}):"datum saknas");
+render();
+}catch(error){
+$("status").className="status warn";
+$("status").textContent="Fyndflödet kunde inte hämtas. Försök igen senare.";
+$("updated").textContent="Flödet kunde inte läsas";
+const empty=document.createElement("div");
+empty.className="empty";
+empty.textContent="Inga exempelprodukter visas när liveflödet inte fungerar.";
+$("deals").replaceChildren(empty);
 }
-document.querySelectorAll("[data-sort]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("[data-sort]").forEach(t=>t.classList.remove("active"));b.classList.add("active");sortMode=b.dataset.sort;render()}));$("search").addEventListener("input",render);$("category").addEventListener("change",render);load();
-</script></body></html>
+}
+
+document.querySelectorAll("[data-sort]").forEach(button=>{
+button.addEventListener("click",()=>{
+document.querySelectorAll("[data-sort]").forEach(tab=>tab.classList.remove("active"));
+button.classList.add("active");
+sortMode=button.dataset.sort;
+render();
+});
+});
+$("search").addEventListener("input",render);
+$("category").addEventListener("change",render);
+load();
+</script>
+</body>
+</html>
