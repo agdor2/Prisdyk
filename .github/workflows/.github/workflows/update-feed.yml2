@@ -1,0 +1,92 @@
+
+name: Uppdatera Prisdyks fyndflöde
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17,47 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hämta repository
+        uses: actions/checkout@v4
+
+      - name: Hämta och omvandla RSS
+        run: |
+          python - <<'PY'
+          import json
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timezone
+
+          url = "https://m.sweclockers.com/feeds/forum/trad/999559"
+          req = urllib.request.Request(
+              url, headers={"User-Agent": "Prisdyk/1.0"}
+          )
+
+          with urllib.request.urlopen(req, timeout=25) as response:
+              xml_data = response.read()
+
+          root = ET.fromstring(xml_data)
+
+          def get_text(node, name):
+              for el in node.iter():
+                  if el.tag.split("}")[-1].lower() == name.lower():
+                      return (el.text or "").strip()
+              return ""
+
+          items = []
+          for node in root.iter():
+              if node.tag.split("}")[-1].lower() != "item":
+                  continue
+
+              title = get_text(node, "title")
+              link = get_text(node, "link")
+              description = (
+                  get_text(node, "encoded")
+                  or get_text(node, "description")
+              )
+              pub_date = get_text(node, "pubDate")
+
+              if title or description:
+                  items.append({
+                      "title": title,
+                      "description": description,
+                      "content": description,
+                      "link": link,
+                      "pubDate": pub_date
+                  })
+
+          if not items:
+              raise SystemExit("Inga RSS-tips hittades.")
+
+          output = {
+              "status": "ok",
+              "source": "SweClockers",
+              "updatedAt": datetime.now(timezone.utc).isoformat(),
+              "items": items[:100]
+          }
+
+          with open("deals.json", "w", encoding="utf-8") as f:
+              json.dump(output, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+
+          print(f"Sparade {len(items[:100])} fyndtips.")
+          PY
+
+      - name: Spara uppdaterat flöde
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add deals.json
+          if git diff --cached --quiet; then
+            echo "Inga nya ändringar."
+          else
+            git commit -m "Uppdatera Prisdyks fyndflöde"
+            git push
+          fi
