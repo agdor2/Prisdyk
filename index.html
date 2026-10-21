@@ -18,8 +18,7 @@
 </div></section><section class="wrap" id="om"><div class="about"><h2>Så ska topplistorna läsas</h2><p><strong>Billigast</strong> sorterar tips där ett pris kan läsas ut. <strong>Störst angiven rabatt</strong> använder bara procentsats eller jämförelsepris som faktiskt finns i källtipset. <strong>Lägsta pris i kronor</strong> sorterar efter uppgivet pris, inte efter kvalitet eller värde. Det här är en första live-integration, inte en fullständig genomsökning av alla svenska butiker. Amazon-priser hämtas inte automatiskt.</p></div></section></main>
 <footer><div class="wrap"><strong>↘ prisdyk</strong><p>Fristående fyndguide. Priser och lager kan ändras. Kontrollera alltid produktvariant, frakt, säljare och returvillkor hos butiken. Om liveflödet inte går att hämta visar sidan ett fel i stället för påhittade fynd.</p></div></footer>
 <script>
-const RSS="https://m.sweclockers.com/feeds/forum/trad/999559";
-const API="https://api.rss2json.com/v1/api.json?rss_url="+encodeURIComponent(RSS);
+const FEED="./deals.json";
 let items=[],sortMode="latest";const $=id=>document.getElementById(id);
 function textOnly(s){let d=document.createElement("div");d.innerHTML=s||"";return(d.textContent||"").replace(/\u00a0/g," ").replace(/\s+/g," ").trim()}
 function priceFrom(s){let regs=[/(?:nupris|aktuellt pris|pris)\s*[:=]?\s*(\d[\d\s.,]*)\s*(?:kr|:-|SEK)\b/i,/(\d[\d\s.,]*)\s*kr\b/i,/(\d[\d\s.,]*)\s*:-/i];for(let r of regs){let m=s.match(r);if(m){let n=Number(m[1].replace(/\s/g,"").replace(/\.(?=\d{3}\b)/g,"").replace(",", "."));if(n>0&&n<1e7)return n}}return null}
@@ -29,6 +28,42 @@ function cat(s){if(/grafik|gpu|processor|cpu|dator|skärm|ssd|ram|minne|hörlur|
 function parse(x){let raw=textOnly((x.content||"")+" "+(x.description||"")),title=textOnly(x.title||""),m=raw.match(/Produkt\s*:\s*([^\n\r|]+)/i),name=(m?m[1]:title)||"Fyndtips",p=priceFrom(raw),o=oldFrom(raw,p),d=document.createElement("div");d.innerHTML=x.content||x.description||"";let links=[...d.querySelectorAll("a[href]")].map(a=>a.href).filter(h=>/^https?:/.test(h));let link=links.find(h=>!/(sweclockers\.com|reddit\.com|prisjakt\.nu)/i.test(h))||x.link||"https://www.sweclockers.com/forum/trad/999559";return{name:name.trim().slice(0,160),raw,price:p,old:o,discount:discountFrom(raw,p,o),category:cat(name+" "+raw),link,source:x.link||"https://www.sweclockers.com/forum/trad/999559",date:x.pubDate?new Date(x.pubDate):null}}
 function money(n){return n==null?"Pris saknas":new Intl.NumberFormat("sv-SE",{maximumFractionDigits:0}).format(n)+" kr"}
 function render(){let q=$("search").value.toLocaleLowerCase("sv").trim(),c=$("category").value;let list=items.filter(x=>(!c||x.category===c)&&(`${x.name} ${x.raw} ${x.category}`).toLocaleLowerCase("sv").includes(q));if(sortMode==="cheap"||sortMode==="price")list.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));if(sortMode==="discount")list.sort((a,b)=>(b.discount??-1)-(a.discount??-1));if(sortMode==="latest")list.sort((a,b)=>(b.date?.getTime()||0)-(a.date?.getTime()||0));$("deals").innerHTML="";if(!list.length){$("deals").innerHTML='<div class="empty">Inga matchande fyndtips. Prova ett annat filter eller öppna en av fyndkällorna ovan.</div>';return}for(let x of list){let card=document.createElement("article");card.className="card";card.innerHTML=`<div class="row"><span class="pill">${x.category}</span><span class="pill gold">${x.discount!=null?"−"+x.discount+"% angivet":"Fyndtips"}</span></div><h3></h3><p class="desc"></p><div><span class="price">${money(x.price)}</span>${x.old?`<span class="old">${money(x.old)}</span>`:""}</div><div class="metric">${x.discount!=null?"Angiven rabatt: "+x.discount+"%":"Ingen rabatt kunde utläsas"}</div><a class="btn" target="_blank" rel="noopener noreferrer">Öppna fyndtipset ↗</a><div class="meta"><span>SweClockers RSS</span><span class="date"></span></div>`;card.querySelector("h3").textContent=x.name;card.querySelector(".desc").textContent=x.price==null?"Ingen läsbar prisuppgift hittades. Öppna källtipset för detaljer.":(x.old?"Uppgivet pris och jämförelsepris från tipset – kontrollera hos butiken.":"Uppgivet pris från tipset, inte oberoende verifierat.");card.querySelector("a").href=x.link;card.querySelector(".date").textContent=x.date&&!isNaN(x.date)?x.date.toLocaleDateString("sv-SE"):"Datum saknas";$("deals").appendChild(card)}}
-async function load(){try{let r=await fetch(API,{cache:"no-store"});if(!r.ok)throw Error("RSS-tjänsten svarade "+r.status);let data=await r.json();if(data.status!=="ok"||!Array.isArray(data.items))throw Error(data.message||"Flödet kunde inte läsas");items=data.items.map(parse).filter(x=>x.name);if(!items.length)throw Error("Inga läsbara tips i flödet");$("status").textContent="Liveflöde anslutet: "+items.length+" tips. Priser och rabatter är uppgifter ur källtipset och inte oberoende verifierade.";$("updated").textContent="Hämtat "+new Date().toLocaleString("sv-SE",{dateStyle:"short",timeStyle:"short"});render()}catch(e){$("status").className="status warn";$("status").textContent="Liveflödet kunde inte hämtas just nu ("+e.message+"). Det kan bero på tillfälliga begränsningar hos källan eller RSS-tjänsten. Öppna fyndkällorna nedan. Inga exempelprodukter visas.";$("updated").textContent="Livehämtning misslyckades";$("deals").innerHTML='<div class="empty">Inga fejkade produkter visas när liveflödet inte fungerar. Använd fyndkällorna nedan.</div>'}}
+
+async function load(){
+  try {
+    let r = await fetch(FEED + "?t=" + Date.now(), {cache:"no-store"});
+    if (!r.ok) throw Error("Fyndfilen svarade " + r.status);
+
+    let data = await r.json();
+    if (data.status !== "ok" || !Array.isArray(data.items)) {
+      throw Error("Fyndfilen kunde inte läsas");
+    }
+
+    items = data.items.map(parse).filter(x => x.name);
+    if (!items.length) throw Error("Inga läsbara tips i flödet");
+
+    $("status").textContent =
+      "Automatiskt uppdaterat flöde: " + items.length +
+      " tips. Priser och rabatter är uppgifter ur källtipset och inte oberoende verifierade.";
+
+    $("updated").textContent = "Senast uppdaterad " +
+      (data.updatedAt
+        ? new Date(data.updatedAt).toLocaleString("sv-SE", {
+            dateStyle:"short", timeStyle:"short"
+          })
+        : "okänt");
+
+    render();
+  } catch (e) {
+    $("status").className = "status warn";
+    $("status").textContent =
+      "Fyndflödet kunde inte hämtas (" + e.message +
+      "). Kontrollera GitHub Actions. Inga exempelprodukter visas.";
+
+    $("updated").textContent = "Flödet kunde inte läsas";
+    $("deals").innerHTML =
+      '<div class="empty">Inga fejkade produkter visas när liveflödet inte fungerar.</div>';
+  }
+}
 document.querySelectorAll("[data-sort]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("[data-sort]").forEach(t=>t.classList.remove("active"));b.classList.add("active");sortMode=b.dataset.sort;render()}));$("search").addEventListener("input",render);$("category").addEventListener("change",render);load();
 </script></body></html>
