@@ -1,8 +1,17 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-10-22T15:52:57.123013+00:00",
+  "updatedAt": "2026-10-22T16:54:00.981979+00:00",
   "items": [
+    {
+      "title": "Av: Raudszus",
+      "description": "<div><p>Produkt: Xiaomi TV Max 85<br />\nLänk: <a href=\"https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/\">https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/</a><br />\nKategori: TV<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/404081/xiaomi-tv-max-85-2025-tv-q..\">https://prisgeek.se/produkt/404081/xiaomi-tv-max-85-2025-tv-q...</a>.<br />\nPris: 10791kr<br />\nAnvänd Rabattkoden: VrgeAEw4 för 10% extra rabatt</p><p>Ordinarie pris 17990kr</p></div>",
+      "content": "<div><p>Produkt: Xiaomi TV Max 85<br />\nLänk: <a href=\"https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/\">https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/</a><br />\nKategori: TV<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/404081/xiaomi-tv-max-85-2025-tv-q..\">https://prisgeek.se/produkt/404081/xiaomi-tv-max-85-2025-tv-q...</a>.<br />\nPris: 10791kr<br />\nAnvänd Rabattkoden: VrgeAEw4 för 10% extra rabatt</p><p>Ordinarie pris 17990kr</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21308733",
+      "productUrl": "https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/",
+      "pubDate": "Thu, 22 Oct 2026 17:48:06 +0200",
+      "image": "https://i05.appmifile.com/564_item_se/20/05/2025/2ae93a29a78a8cf1a5bcff1477174cba.png"
+    },
     {
       "title": "Av: Hinken91",
       "description": "<div><p>Produkt: Apple AirPods 5 med trådlöst laddningsetui<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/401834-Apple-AirPods-5-med-tradlost-laddningsetui\">https://www.webhallen.com/se/product/401834-Apple-AirPods-5-m...</a><br />\nKategori: Ljud<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/115766/apple-airpods-5-with-wireless-charging-case\">https://prisgeek.se/produkt/115766/apple-airpods-5-with-wirel...</a><br />\nPris: 1690kr<br />\nObservera: Black, Void eller Legend medlemsnivå krävs för att få korrekt pris.</p><p>Dessutom 100kr rabatt med koden MEMBER1000</p></div>",
@@ -238,15 +247,6 @@
       "productUrl": "https://www.teknikdelar.se/produkt/extrem-snabbladdare-till-samsung-galaxy-s26-ultra-med-usb-c-kabel-45w-pd-vit#aw_source=ps-0228ec8a-4f60-43cb-a3af-c5338b137fb3|69895c5804ebc00317550897|65w%20laddare|pos:13|per:true|",
       "pubDate": "Mon, 12 Oct 2026 19:03:18 +0200",
       "image": "https://assets.spares.nu/products/featured/SN-USBC-S26-65W_B9g-FvM4fnF8DPrHeGMIH.jpg"
-    },
-    {
-      "title": "Av: m4dnezz",
-      "description": "<div><p>Produkt: Denon PerL Pro<br />\nLänk: <a href=\"https://www.hifiklubben.se/denon-perl-pro-traadlosa-in-ear-horlurar/denahc15plbk/\">https://www.hifiklubben.se/denon-perl-pro-traadlosa-in-ear-ho...</a><br />\nKategori: Ljud<br />\nPrisjakt: <a href=\"https://www.prisjakt.nu/produkt.php?p=11217874\">https://www.prisjakt.nu/produkt.php?p=11217874</a><br />\nPris: 1898kr</p></div>",
-      "content": "<div><p>Produkt: Denon PerL Pro<br />\nLänk: <a href=\"https://www.hifiklubben.se/denon-perl-pro-traadlosa-in-ear-horlurar/denahc15plbk/\">https://www.hifiklubben.se/denon-perl-pro-traadlosa-in-ear-ho...</a><br />\nKategori: Ljud<br />\nPrisjakt: <a href=\"https://www.prisjakt.nu/produkt.php?p=11217874\">https://www.prisjakt.nu/produkt.php?p=11217874</a><br />\nPris: 1898kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21300974",
-      "productUrl": "https://www.hifiklubben.se/denon-perl-pro-traadlosa-in-ear-horlurar/denahc15plbk/",
-      "pubDate": "Mon, 12 Oct 2026 12:47:24 +0200",
-      "image": "https://images.hifiklubben.com/image/397647e9-0d2a-483e-a04f-4ffe12008e76/pdp_h/denahc15pl.jpg"
     }
   ]
 }
