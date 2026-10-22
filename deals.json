@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-10-22T10:52:28.529842+00:00",
+  "updatedAt": "2026-10-22T11:52:08.878076+00:00",
   "items": [
+    {
+      "title": "Av: Jubas",
+      "description": "<div><p>Produkt: Gigabyte RTX 5080 16GB Gaming OC  - Fyndvara<br />\nLänk: <a href=\"https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigabyte-geforce-rtx-5080-16gb-gaming-oc/x1039858.3038/\">https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigaby...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155800/gigabyte-geforce-rtx-5080-gaming-oc-16gb\">https://prisgeek.se/produkt/155800/gigabyte-geforce-rtx-5080-...</a><br />\nPris: 16190kr</p></div>",
+      "content": "<div><p>Produkt: Gigabyte RTX 5080 16GB Gaming OC  - Fyndvara<br />\nLänk: <a href=\"https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigabyte-geforce-rtx-5080-16gb-gaming-oc/x1039858.3038/\">https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigaby...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155800/gigabyte-geforce-rtx-5080-gaming-oc-16gb\">https://prisgeek.se/produkt/155800/gigabyte-geforce-rtx-5080-...</a><br />\nPris: 16190kr</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21308470",
+      "productUrl": "https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigabyte-geforce-rtx-5080-16gb-gaming-oc/x1039858.3038/",
+      "pubDate": "Thu, 22 Oct 2026 13:22:31 +0200"
+    },
     {
       "title": "Av: Jubas",
       "description": "<div><p>Produkt: Gigabyte RTX 5070 Ti Gaming OC  - Fyndvara<br />\nLänk: <a href=\"https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-ti-gaming-oc-grafikkort/907518?qid=289f8b3576f4216ca0bf19ae1ad9c974\">https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155246/gigabyte-rtx-5070-ti-gaming-oc-16gb\">https://prisgeek.se/produkt/155246/gigabyte-rtx-5070-ti-gamin...</a><br />\nPris: 10799kr</p></div>",
@@ -239,14 +247,6 @@
       "link": "https://www.sweclockers.com/forum/post/21300812",
       "productUrl": "https://www.elgiganten.se/product/outlet/lenovo-legion-tower-5i-30l-10-u7-265161tb5060-ti-gamingdator/1018677",
       "pubDate": "Mon, 12 Oct 2026 08:54:53 +0200"
-    },
-    {
-      "title": "Av: ZpeedX",
-      "description": "<div><p>Produkt: PCSpecialist Spectra 120 R7-9X3D/32/4TB/5080<br />\nLänk: <a href=\"https://www.elgiganten.se/product/datorer-kontor/datorer/stationar-dator/pcspecialist-spectra-120-r7-9x3d324tb5080-stationar-dator-gaming/916364\">https://www.elgiganten.se/product/datorer-kontor/datorer/stat...</a><br />\nKategori: Gaming dator<br />\nPrisgeek: -<br />\nPris: 32 990 kr</p><p>Använda Mixa-fritt erbjudande genom att lägga till något extremt billigt i kassan.</p></div>",
-      "content": "<div><p>Produkt: PCSpecialist Spectra 120 R7-9X3D/32/4TB/5080<br />\nLänk: <a href=\"https://www.elgiganten.se/product/datorer-kontor/datorer/stationar-dator/pcspecialist-spectra-120-r7-9x3d324tb5080-stationar-dator-gaming/916364\">https://www.elgiganten.se/product/datorer-kontor/datorer/stat...</a><br />\nKategori: Gaming dator<br />\nPrisgeek: -<br />\nPris: 32 990 kr</p><p>Använda Mixa-fritt erbjudande genom att lägga till något extremt billigt i kassan.</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21300778",
-      "productUrl": "https://www.elgiganten.se/product/datorer-kontor/datorer/stationar-dator/pcspecialist-spectra-120-r7-9x3d324tb5080-stationar-dator-gaming/916364",
-      "pubDate": "Mon, 12 Oct 2026 07:39:15 +0200"
     }
   ]
 }
