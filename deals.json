@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-10-25T20:05:05.567289+00:00",
+  "updatedAt": "2026-10-25T20:46:52.318765+00:00",
   "items": [
+    {
+      "title": "Av: lundgrensskåne",
+      "description": "<div><p>All time low på dessa tror jag:</p><p>Produkt: Bowers &amp; Wilkins Px8 S2 <br />\nLänk: <a href=\"https://www.amazon.se/gp/product/B0FH5QDTBQ/ref=ox_sc_act_title_1?smid=ANU9KP01APNAG&amp;psc=1\">https://www.amazon.se/gp/product/B0FH5QDTBQ/ref=ox_sc_act_tit...</a><br />\nKategori: Hörlurar<br />\nPrisgeek: -<br />\nPris: 6 761 kr</p></div>",
+      "content": "<div><p>All time low på dessa tror jag:</p><p>Produkt: Bowers &amp; Wilkins Px8 S2 <br />\nLänk: <a href=\"https://www.amazon.se/gp/product/B0FH5QDTBQ/ref=ox_sc_act_title_1?smid=ANU9KP01APNAG&amp;psc=1\">https://www.amazon.se/gp/product/B0FH5QDTBQ/ref=ox_sc_act_tit...</a><br />\nKategori: Hörlurar<br />\nPrisgeek: -<br />\nPris: 6 761 kr</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21311041",
+      "productUrl": "https://www.amazon.se/gp/product/B0FH5QDTBQ/ref=ox_sc_act_title_1?smid=ANU9KP01APNAG&psc=1",
+      "pubDate": "Sun, 25 Oct 2026 21:21:52 +0100"
+    },
     {
       "title": "Av: Mumu55",
       "description": "<div><p>Produkt: ASUS Vivobook S14 S5406 14&quot; U7-258V 32GB 1TB OLED FHD+ 60Hz WiFi7<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/401389-ASUS-VivoBook-S14-S5406SA-14?\">https://www.webhallen.com/se/product/401389-ASUS-VivoBook-S14...</a><br />\nKategori: Datorer<br />\nPrisjakt: <a href=\"https://prisgeek.se/produkt/155723/asus-vivobook-s14-s5406sa-14\">https://prisgeek.se/produkt/155723/asus-vivobook-s14-s5406sa-...</a><br />\nPris: 12990kr</p><p>Intel Core Ultra 7 258V med en ok iGPU ARC 140V.<br />\n32GB, 1TB är trevligt.<br />\n14&quot; OLED 1920 x 1200 men endast 60Hz.</p><p>Svårt att kalla det fynd när motsvarande spec. fanns för 9990kr i November men priserna är ju galna numera. Och det verkar dröja ett bra tag innan det går ner igen.</p></div>",
@@ -240,14 +248,6 @@
       "link": "https://www.sweclockers.com/forum/post/21305959",
       "productUrl": "https://www.netonnet.se/art/gaming/gamingheadset/tradlost-headset/steelseries-arctis-nova-3-wl-black-pc/1064698.16957/",
       "pubDate": "Sun, 18 Oct 2026 18:45:56 +0200"
-    },
-    {
-      "title": "Av: valkonen",
-      "description": "<div><p><del>Produkt: HP OMEN 16 R-AI7/16/512/5070 16&quot; bärbar dator gaming, <b>OBS:</b> Outletvara, endast 1st i lager<br />\nLänk: <a href=\"https://www.elgiganten.se/product/outlet/hp-omen-16-r-ai7165125070-16-barbar-dator-gaming/947308\">https://www.elgiganten.se/product/outlet/hp-omen-16-r-ai71651...</a><br />\nKategori: Bärbar gaming dator<br />\nPris: 12242kr med frakt</del></p><p>SÅLD!</p></div>",
-      "content": "<div><p><del>Produkt: HP OMEN 16 R-AI7/16/512/5070 16&quot; bärbar dator gaming, <b>OBS:</b> Outletvara, endast 1st i lager<br />\nLänk: <a href=\"https://www.elgiganten.se/product/outlet/hp-omen-16-r-ai7165125070-16-barbar-dator-gaming/947308\">https://www.elgiganten.se/product/outlet/hp-omen-16-r-ai71651...</a><br />\nKategori: Bärbar gaming dator<br />\nPris: 12242kr med frakt</del></p><p>SÅLD!</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21305937",
-      "productUrl": "https://www.elgiganten.se/product/outlet/hp-omen-16-r-ai7165125070-16-barbar-dator-gaming/947308",
-      "pubDate": "Sun, 18 Oct 2026 18:01:51 +0200"
     }
   ]
 }
