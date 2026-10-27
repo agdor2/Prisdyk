@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-10-27T09:58:12.666719+00:00",
+  "updatedAt": "2026-10-27T10:56:30.852449+00:00",
   "items": [
+    {
+      "title": "Av: Daemon",
+      "description": "<div><p>Produkt: Roborock Q Revo Edge 2 Pro<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/395417-Roborock-Qrevo-Edge-2-Pro-White\">https://www.webhallen.com/se/product/395417-Roborock-Qrevo-Ed...</a><br />\nKategori: Smarta hem<br />\nPrisjakt: <a href=\"https://prisgeek.se/produkt/178698/roborock-qrevo-edge-2-pro-white\">https://prisgeek.se/produkt/178698/roborock-qrevo-edge-2-pro-...</a><br />\nPris: 5990 :-</p><p>Riktigt mycket robotdammsugare för slanten, varit nere på 6990 :- tidigare, men nu ännu ett snäpp lägre.<br />\nKöpte själv en tidigare när det fanns en VIP-deal till samma pris.</p><p><b>Bred kampanj, samma pris hos Netonnet, Komplett, Elgiganten, Proshop, Kjell, Power m.fl.</b></p></div>",
+      "content": "<div><p>Produkt: Roborock Q Revo Edge 2 Pro<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/395417-Roborock-Qrevo-Edge-2-Pro-White\">https://www.webhallen.com/se/product/395417-Roborock-Qrevo-Ed...</a><br />\nKategori: Smarta hem<br />\nPrisjakt: <a href=\"https://prisgeek.se/produkt/178698/roborock-qrevo-edge-2-pro-white\">https://prisgeek.se/produkt/178698/roborock-qrevo-edge-2-pro-...</a><br />\nPris: 5990 :-</p><p>Riktigt mycket robotdammsugare för slanten, varit nere på 6990 :- tidigare, men nu ännu ett snäpp lägre.<br />\nKöpte själv en tidigare när det fanns en VIP-deal till samma pris.</p><p><b>Bred kampanj, samma pris hos Netonnet, Komplett, Elgiganten, Proshop, Kjell, Power m.fl.</b></p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21312117",
+      "productUrl": "https://www.webhallen.com/se/product/395417-Roborock-Qrevo-Edge-2-Pro-White",
+      "pubDate": "Tue, 27 Oct 2026 11:20:29 +0100"
+    },
     {
       "title": "Av: Norrwie",
       "description": "<div><p>Produkt: Glorious GMMK 3 HE 75% Black - Hall Effect Fox (Medlemspris)<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-HE-75-Black-Pre-Built-Nordic-ISO-Hall-Effect-Fox\">https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-H...</a><br />\nKategori: Tangentbord<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nordisk-svart\">https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nord...</a><br />\nPris: 699kr</p></div>",
@@ -240,14 +248,6 @@
       "link": "https://www.sweclockers.com/forum/post/21306877",
       "productUrl": "https://www.elgiganten.se/product/outlet/gigabyte-radeon-rx-9070-xt-gaming-oc-16g-grafikkort/909539?qid=1697f9096dbe0aab1cf7e9d697b44cb2",
       "pubDate": "Tue, 20 Oct 2026 10:58:43 +0200"
-    },
-    {
-      "title": "Av: Jubas",
-      "description": "<div><p>Produkt: Gigabyte GeForce RTX 5070 Windforce - Fyndvara<br />\nLänk: <a href=\"https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-windforce-grafikkort/927768?qid=a315beda42f6a919064e3a92341c7ab5\">https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155107/gigabyte-geforce-rtx-5070-windforce-12gb-oc\">https://prisgeek.se/produkt/155107/gigabyte-geforce-rtx-5070-...</a><br />\nPris: 7599kr</p></div>",
-      "content": "<div><p>Produkt: Gigabyte GeForce RTX 5070 Windforce - Fyndvara<br />\nLänk: <a href=\"https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-windforce-grafikkort/927768?qid=a315beda42f6a919064e3a92341c7ab5\">https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155107/gigabyte-geforce-rtx-5070-windforce-12gb-oc\">https://prisgeek.se/produkt/155107/gigabyte-geforce-rtx-5070-...</a><br />\nPris: 7599kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21306521",
-      "productUrl": "https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-windforce-grafikkort/927768?qid=a315beda42f6a919064e3a92341c7ab5",
-      "pubDate": "Mon, 19 Oct 2026 18:12:22 +0200"
     }
   ]
 }
