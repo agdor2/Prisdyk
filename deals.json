@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-10-27T09:00:14.730810+00:00",
+  "updatedAt": "2026-10-27T09:58:12.666719+00:00",
   "items": [
+    {
+      "title": "Av: Norrwie",
+      "description": "<div><p>Produkt: Glorious GMMK 3 HE 75% Black - Hall Effect Fox (Medlemspris)<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-HE-75-Black-Pre-Built-Nordic-ISO-Hall-Effect-Fox\">https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-H...</a><br />\nKategori: Tangentbord<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nordisk-svart\">https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nord...</a><br />\nPris: 699kr</p></div>",
+      "content": "<div><p>Produkt: Glorious GMMK 3 HE 75% Black - Hall Effect Fox (Medlemspris)<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-HE-75-Black-Pre-Built-Nordic-ISO-Hall-Effect-Fox\">https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-H...</a><br />\nKategori: Tangentbord<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nordisk-svart\">https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nord...</a><br />\nPris: 699kr</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21312077",
+      "productUrl": "https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-HE-75-Black-Pre-Built-Nordic-ISO-Hall-Effect-Fox",
+      "pubDate": "Tue, 27 Oct 2026 10:36:58 +0100"
+    },
     {
       "title": "Av: THB",
       "description": "<div><p>Produkt: MSI PRO H610M-E DDR5 (mATX)<br />\nLänk: <a href=\"https://www.amazon.se/dp/B0CC9G49JQ\">https://www.amazon.se/dp/B0CC9G49JQ</a><br />\nKategori: Moderkort<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/152343/msi-pro-h610m-e-moderkort-intel-h610-intel-lga1700-ddr5-ram-micro-atx\">https://prisgeek.se/produkt/152343/msi-pro-h610m-e-moderkort-...</a><br />\nPris: 362kr</p><p>Enklare H610 moderkort för Intel series 12-14 och DDR5 minnen.<br />\n<a href=\"https://www.msi.com/Motherboard/PRO-H610M-E\">https://www.msi.com/Motherboard/PRO-H610M-E</a></p></div>",
@@ -240,14 +248,6 @@
       "link": "https://www.sweclockers.com/forum/post/21306521",
       "productUrl": "https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-windforce-grafikkort/927768?qid=a315beda42f6a919064e3a92341c7ab5",
       "pubDate": "Mon, 19 Oct 2026 18:12:22 +0200"
-    },
-    {
-      "title": "Av: ZpeedX",
-      "description": "<div><p>Produkt: Corsair Vengeance DDR5 6000Mhz 32GB (2x16GB) CL36<br />\nLänk: <a href=\"https://www.netonnet.se/art/datorkomponenter/ram-minne/ddr5/corsair-vengeance-ddr5-6000mhz-32gb-2x16gb-cl36-cmk32gx5m2e6000z36/1047009.18457/\">https://www.netonnet.se/art/datorkomponenter/ram-minne/ddr5/c...</a><br />\nKategori: RAM-minne<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/144591/corsair-vengeance-ddr5-6000-32gb-cl36-dual-channel-2-pcs-amd-expo-intel-xmp-gra\">https://prisgeek.se/produkt/144591/corsair-vengeance-ddr5-600...</a><br />\nPris: <del>4790kr</del></p><p>Priset ändrat nu till 6790kr</p></div>",
-      "content": "<div><p>Produkt: Corsair Vengeance DDR5 6000Mhz 32GB (2x16GB) CL36<br />\nLänk: <a href=\"https://www.netonnet.se/art/datorkomponenter/ram-minne/ddr5/corsair-vengeance-ddr5-6000mhz-32gb-2x16gb-cl36-cmk32gx5m2e6000z36/1047009.18457/\">https://www.netonnet.se/art/datorkomponenter/ram-minne/ddr5/c...</a><br />\nKategori: RAM-minne<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/144591/corsair-vengeance-ddr5-6000-32gb-cl36-dual-channel-2-pcs-amd-expo-intel-xmp-gra\">https://prisgeek.se/produkt/144591/corsair-vengeance-ddr5-600...</a><br />\nPris: <del>4790kr</del></p><p>Priset ändrat nu till 6790kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21306075",
-      "productUrl": "https://www.netonnet.se/art/datorkomponenter/ram-minne/ddr5/corsair-vengeance-ddr5-6000mhz-32gb-2x16gb-cl36-cmk32gx5m2e6000z36/1047009.18457/",
-      "pubDate": "Sun, 18 Oct 2026 22:01:37 +0200"
     }
   ]
 }
