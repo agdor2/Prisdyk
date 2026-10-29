@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-10-29T17:32:02.709777+00:00",
+  "updatedAt": "2026-10-29T18:26:01.473151+00:00",
   "items": [
+    {
+      "title": "Av: Kent",
+      "description": "<div><p>Produkt: SCHALLWERK ® Music+ öronproppar <br />\nLänk: <a href=\"https://www.amazon.se/dp/B0FFMK49P9?\">https://www.amazon.se/dp/B0FFMK49P9?</a><br />\nKategori: Ljud<br />\nPris: 25kr</p><p>Öronproppar för musik/konsert som enligt tillverkaren inte ska försämra ljudet (ta det med en skopa salt). Får bra omdömen på Amazon.</p></div>",
+      "content": "<div><p>Produkt: SCHALLWERK ® Music+ öronproppar <br />\nLänk: <a href=\"https://www.amazon.se/dp/B0FFMK49P9?\">https://www.amazon.se/dp/B0FFMK49P9?</a><br />\nKategori: Ljud<br />\nPris: 25kr</p><p>Öronproppar för musik/konsert som enligt tillverkaren inte ska försämra ljudet (ta det med en skopa salt). Får bra omdömen på Amazon.</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21314148",
+      "productUrl": "https://www.amazon.se/dp/B0FFMK49P9?",
+      "pubDate": "Thu, 29 Oct 2026 18:57:45 +0100"
+    },
     {
       "title": "Av: markiiie",
       "description": "<div><p>Produkt: SCUF Envision Pro V1 Trådlös Handkontroll till PC - Vit<br />\nLänk: <a href=\"https://www.maxgaming.se/sv/gamepads/envision-pro-v1-tradlos-handkontroll-till-pc-vit\">https://www.maxgaming.se/sv/gamepads/envision-pro-v1-tradlos-...</a><br />\nKategori: Övrigt<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/241956/scuf-envision-pro-v1-tradlos-handkontroll-till-pc-vit\">https://prisgeek.se/produkt/241956/scuf-envision-pro-v1-tradl...</a><br />\nPris: 790 kr</p></div>",
@@ -240,14 +248,6 @@
       "link": "https://www.sweclockers.com/forum/post/21307990",
       "productUrl": "https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-ti-gaming-oc-grafikkort/907518?qid=289f8b3576f4216ca0bf19ae1ad9c974",
       "pubDate": "Wed, 21 Oct 2026 19:40:59 +0200"
-    },
-    {
-      "title": "Av: Coolg8",
-      "description": "<div><p>Lite grafikkort från Inet Fynd</p><p><del>Produkt: ASUS Radeon RX 9070 XT 16GB TUF Gaming OC<br />\nLänk: <a href=\"https://www.inet.se/produkt/x255887/asus-radeon-rx-9070-xt-16gb-tuf-gaming-oc\">https://www.inet.se/produkt/x255887/asus-radeon-rx-9070-xt-16gb-tuf-gaming-oc</a><br />\nKategori: Grafikkort<br />\nPris: 11700kr<br />\nOrdinarie pris 12290kr</del></p><p><del>Produkt: Acer Predator BiFrost Radeon RX 9070 XT 16GB OC<br />\nLänk: <a href=\"https://www.inet.se/produkt/x255891/acer-predator-bifrost-radeon-rx-9070-xt-16gb-oc\">https://www.inet.se/produkt/x255891/acer-predator-bifrost-radeon-rx-9070-xt-16gb-oc</a><br />\nKategori: Grafikkort<br />\nPris: 8560kr<br />\nOrdinarie pris 8990kr</del></p></div>",
-      "content": "<div><p>Lite grafikkort från Inet Fynd</p><p><del>Produkt: ASUS Radeon RX 9070 XT 16GB TUF Gaming OC<br />\nLänk: <a href=\"https://www.inet.se/produkt/x255887/asus-radeon-rx-9070-xt-16gb-tuf-gaming-oc\">https://www.inet.se/produkt/x255887/asus-radeon-rx-9070-xt-16gb-tuf-gaming-oc</a><br />\nKategori: Grafikkort<br />\nPris: 11700kr<br />\nOrdinarie pris 12290kr</del></p><p><del>Produkt: Acer Predator BiFrost Radeon RX 9070 XT 16GB OC<br />\nLänk: <a href=\"https://www.inet.se/produkt/x255891/acer-predator-bifrost-radeon-rx-9070-xt-16gb-oc\">https://www.inet.se/produkt/x255891/acer-predator-bifrost-radeon-rx-9070-xt-16gb-oc</a><br />\nKategori: Grafikkort<br />\nPris: 8560kr<br />\nOrdinarie pris 8990kr</del></p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21307582",
-      "productUrl": "https://www.inet.se/produkt/x255887/asus-radeon-rx-9070-xt-16gb-tuf-gaming-oc",
-      "pubDate": "Wed, 21 Oct 2026 11:32:43 +0200"
     }
   ]
 }
