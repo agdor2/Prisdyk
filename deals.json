@@ -1,8 +1,17 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-10-29T19:33:43.914576+00:00",
+  "updatedAt": "2026-10-29T20:26:25.956957+00:00",
   "items": [
+    {
+      "title": "Av: SnowgubbeN",
+      "description": "<div><p>Produkt: MSI B760M GAMING PLUS WIFI <br />\nLänk: <a href=\"https://www.elfynd.se/msi-b760m-gaming-plus-wifi-moderkort.html\">https://www.elfynd.se/msi-b760m-gaming-plus-wifi-moderkort.ht...</a><br />\nKategori: Moderkort<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/143778/msi-b760m-gaming-plus-wifi\">https://prisgeek.se/produkt/143778/msi-b760m-gaming-plus-wifi</a><br />\nPris: 999kr  <b>(fyndvara)</b></p><p><i>Obs, mATX och för Intel (LGA 1700)</i></p><p><i>Klicka på den gröna texten &apos;fyndvara&apos; för att läsa mer.</i></p></div>",
+      "content": "<div><p>Produkt: MSI B760M GAMING PLUS WIFI <br />\nLänk: <a href=\"https://www.elfynd.se/msi-b760m-gaming-plus-wifi-moderkort.html\">https://www.elfynd.se/msi-b760m-gaming-plus-wifi-moderkort.ht...</a><br />\nKategori: Moderkort<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/143778/msi-b760m-gaming-plus-wifi\">https://prisgeek.se/produkt/143778/msi-b760m-gaming-plus-wifi</a><br />\nPris: 999kr  <b>(fyndvara)</b></p><p><i>Obs, mATX och för Intel (LGA 1700)</i></p><p><i>Klicka på den gröna texten &apos;fyndvara&apos; för att läsa mer.</i></p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21314264",
+      "productUrl": "https://www.elfynd.se/msi-b760m-gaming-plus-wifi-moderkort.html",
+      "pubDate": "Thu, 29 Oct 2026 20:55:39 +0100",
+      "image": "https://www.elfynd.se/media/catalog/product/cache/a72fd420f7c7c36d6543e5b893833d44/9/9/992418.png"
+    },
     {
       "title": "Av: Kent",
       "description": "<div><p>Produkt: SCHALLWERK ® Music+ öronproppar <br />\nLänk: <a href=\"https://www.amazon.se/dp/B0FFMK49P9?\">https://www.amazon.se/dp/B0FFMK49P9?</a><br />\nKategori: Ljud<br />\nPris: 25kr</p><p>Öronproppar för musik/konsert som enligt tillverkaren inte ska försämra ljudet (ta det med en skopa salt). Får bra omdömen på Amazon.</p></div>",
@@ -240,14 +249,6 @@
       "link": "https://www.sweclockers.com/forum/post/21308470",
       "productUrl": "https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigabyte-geforce-rtx-5080-16gb-gaming-oc/x1039858.3038/",
       "pubDate": "Thu, 22 Oct 2026 13:22:31 +0200"
-    },
-    {
-      "title": "Av: Jubas",
-      "description": "<div><p>Produkt: Gigabyte RTX 5070 Ti Gaming OC  - Fyndvara<br />\nLänk: <a href=\"https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-ti-gaming-oc-grafikkort/907518?qid=289f8b3576f4216ca0bf19ae1ad9c974\">https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155246/gigabyte-rtx-5070-ti-gaming-oc-16gb\">https://prisgeek.se/produkt/155246/gigabyte-rtx-5070-ti-gamin...</a><br />\nPris: 10799kr</p></div>",
-      "content": "<div><p>Produkt: Gigabyte RTX 5070 Ti Gaming OC  - Fyndvara<br />\nLänk: <a href=\"https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-ti-gaming-oc-grafikkort/907518?qid=289f8b3576f4216ca0bf19ae1ad9c974\">https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155246/gigabyte-rtx-5070-ti-gaming-oc-16gb\">https://prisgeek.se/produkt/155246/gigabyte-rtx-5070-ti-gamin...</a><br />\nPris: 10799kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21307990",
-      "productUrl": "https://www.elgiganten.se/product/outlet/gigabyte-geforce-rtx-5070-ti-gaming-oc-grafikkort/907518?qid=289f8b3576f4216ca0bf19ae1ad9c974",
-      "pubDate": "Wed, 21 Oct 2026 19:40:59 +0200"
     }
   ]
 }
