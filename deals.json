@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-10-30T10:30:02.897374+00:00",
+  "updatedAt": "2026-10-30T11:20:46.686783+00:00",
   "items": [
+    {
+      "title": "Av: Brainsplitter",
+      "description": "<div><p>Produkt: Corsair SF750 SFX PSU<br />\nLänk: <a href=\"https://www.netonnet.se/art/fyndvaror/datorkomponenter/corsair-sf750-80-plus-platinum-sfx-psu/x1035068.3038/\">https://www.netonnet.se/art/fyndvaror/datorkomponenter/corsai...</a><br />\nKategori: Nätaggregat<br />\nPrisGeek: <a href=\"https://priser.sweclockers.com/produkt/116233/corsair-corsair-sf-series-sf750-nataggregat-intern-atx12v-3-1-eps12v-80-plus-platinum-ac-100-240-v-750-watt-europa\">https://priser.sweclockers.com/produkt/116233/corsair-corsair...</a><br />\nPris: 449kr</p><p>Gäller endast lagershop Jönköping! Galet lågt pris!</p></div>",
+      "content": "<div><p>Produkt: Corsair SF750 SFX PSU<br />\nLänk: <a href=\"https://www.netonnet.se/art/fyndvaror/datorkomponenter/corsair-sf750-80-plus-platinum-sfx-psu/x1035068.3038/\">https://www.netonnet.se/art/fyndvaror/datorkomponenter/corsai...</a><br />\nKategori: Nätaggregat<br />\nPrisGeek: <a href=\"https://priser.sweclockers.com/produkt/116233/corsair-corsair-sf-series-sf750-nataggregat-intern-atx12v-3-1-eps12v-80-plus-platinum-ac-100-240-v-750-watt-europa\">https://priser.sweclockers.com/produkt/116233/corsair-corsair...</a><br />\nPris: 449kr</p><p>Gäller endast lagershop Jönköping! Galet lågt pris!</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21314625",
+      "productUrl": "https://www.netonnet.se/art/fyndvaror/datorkomponenter/corsair-sf750-80-plus-platinum-sfx-psu/x1035068.3038/",
+      "pubDate": "Fri, 30 Oct 2026 11:43:48 +0100"
+    },
     {
       "title": "Av: SnowgubbeN",
       "description": "<div><p>Produkt: MSI B760M GAMING PLUS WIFI <br />\nLänk: <a href=\"https://www.elfynd.se/msi-b760m-gaming-plus-wifi-moderkort.html\">https://www.elfynd.se/msi-b760m-gaming-plus-wifi-moderkort.ht...</a><br />\nKategori: Moderkort<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/143778/msi-b760m-gaming-plus-wifi\">https://prisgeek.se/produkt/143778/msi-b760m-gaming-plus-wifi</a><br />\nPris: 999kr  <b>(fyndvara)</b></p><p><i>Obs, mATX och för Intel (LGA 1700)</i></p><p><i>Klicka på den gröna texten &apos;fyndvara&apos; för att läsa mer.</i></p></div>",
@@ -241,14 +249,6 @@
       "productUrl": "https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/",
       "pubDate": "Thu, 22 Oct 2026 17:48:06 +0200",
       "image": "https://i05.appmifile.com/564_item_se/20/05/2025/2ae93a29a78a8cf1a5bcff1477174cba.png"
-    },
-    {
-      "title": "Av: Jubas",
-      "description": "<div><p>Produkt: Gigabyte RTX 5080 16GB Gaming OC  - Fyndvara<br />\nLänk: <a href=\"https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigabyte-geforce-rtx-5080-16gb-gaming-oc/x1039858.3038/\">https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigaby...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155800/gigabyte-geforce-rtx-5080-gaming-oc-16gb\">https://prisgeek.se/produkt/155800/gigabyte-geforce-rtx-5080-...</a><br />\nPris: 16190kr</p></div>",
-      "content": "<div><p>Produkt: Gigabyte RTX 5080 16GB Gaming OC  - Fyndvara<br />\nLänk: <a href=\"https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigabyte-geforce-rtx-5080-16gb-gaming-oc/x1039858.3038/\">https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigaby...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155800/gigabyte-geforce-rtx-5080-gaming-oc-16gb\">https://prisgeek.se/produkt/155800/gigabyte-geforce-rtx-5080-...</a><br />\nPris: 16190kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21308470",
-      "productUrl": "https://www.netonnet.se/art/fyndvaror/datorkomponenter/gigabyte-geforce-rtx-5080-16gb-gaming-oc/x1039858.3038/",
-      "pubDate": "Thu, 22 Oct 2026 13:22:31 +0200"
     }
   ]
 }
