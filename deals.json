@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-01T08:29:45.444455+00:00",
+  "updatedAt": "2026-11-01T09:26:32.154604+00:00",
   "items": [
+    {
+      "title": "Av: AndyX",
+      "description": "<div><p>Produkt: AMD Ryzen 7 9800X3D<br />\nLänk: <a href=\"https://www.aliexpress.com/item/1005011682353214.html?\">https://www.aliexpress.com/item/1005011682353214.html?</a><br />\nKategori: Processor<br />\nPrisGeek: <a href=\"https://priser.sweclockers.com/produkt/154392/amd-ryzen-7-9800x3d-8-cores-16-threads-4-7ghz\">https://priser.sweclockers.com/produkt/154392/amd-ryzen-7-980...</a><br />\nPris: <b>3 581,75kr</b> med rabattkod och klarna checkout</p><p>Skickas från Polen, så inga extra skatter eller tullavgifter.</p></div>",
+      "content": "<div><p>Produkt: AMD Ryzen 7 9800X3D<br />\nLänk: <a href=\"https://www.aliexpress.com/item/1005011682353214.html?\">https://www.aliexpress.com/item/1005011682353214.html?</a><br />\nKategori: Processor<br />\nPrisGeek: <a href=\"https://priser.sweclockers.com/produkt/154392/amd-ryzen-7-9800x3d-8-cores-16-threads-4-7ghz\">https://priser.sweclockers.com/produkt/154392/amd-ryzen-7-980...</a><br />\nPris: <b>3 581,75kr</b> med rabattkod och klarna checkout</p><p>Skickas från Polen, så inga extra skatter eller tullavgifter.</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21315760",
+      "productUrl": "https://www.aliexpress.com/item/1005011682353214.html?",
+      "pubDate": "Sun, 01 Nov 2026 10:19:28 +0100"
+    },
     {
       "title": "Av: Brainsplitter",
       "description": "<div><p>Produkt: Corsair SF750 SFX PSU<br />\nLänk: <a href=\"https://www.netonnet.se/art/fyndvaror/datorkomponenter/corsair-sf750-80-plus-platinum-sfx-psu/x1035068.3038/\">https://www.netonnet.se/art/fyndvaror/datorkomponenter/corsai...</a><br />\nKategori: Nätaggregat<br />\nPrisGeek: <a href=\"https://priser.sweclockers.com/produkt/116233/corsair-corsair-sf-series-sf750-nataggregat-intern-atx12v-3-1-eps12v-80-plus-platinum-ac-100-240-v-750-watt-europa\">https://priser.sweclockers.com/produkt/116233/corsair-corsair...</a><br />\nPris: 449kr</p><p>Gäller endast lagershop Jönköping! Galet lågt pris!</p></div>",
@@ -240,15 +248,6 @@
       "link": "https://www.sweclockers.com/forum/post/21308790",
       "productUrl": "https://www.inet.se/produkt/2230552/samsung-65-qn85f-neo-qled-4k-smart-tv",
       "pubDate": "Thu, 22 Oct 2026 19:03:39 +0200"
-    },
-    {
-      "title": "Av: Raudszus",
-      "description": "<div><p>Produkt: Xiaomi TV Max 85<br />\nLänk: <a href=\"https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/\">https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/</a><br />\nKategori: TV<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/404081/xiaomi-tv-max-85-2025-tv-q..\">https://prisgeek.se/produkt/404081/xiaomi-tv-max-85-2025-tv-q...</a>.<br />\nPris: 10791kr<br />\nAnvänd Rabattkoden: VrgeAEw4 för 10% extra rabatt</p><p>Ordinarie pris 17990kr</p></div>",
-      "content": "<div><p>Produkt: Xiaomi TV Max 85<br />\nLänk: <a href=\"https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/\">https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/</a><br />\nKategori: TV<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/404081/xiaomi-tv-max-85-2025-tv-q..\">https://prisgeek.se/produkt/404081/xiaomi-tv-max-85-2025-tv-q...</a>.<br />\nPris: 10791kr<br />\nAnvänd Rabattkoden: VrgeAEw4 för 10% extra rabatt</p><p>Ordinarie pris 17990kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21308733",
-      "productUrl": "https://www.mi.com/se/product/xiaomi-tv-max-85-2025/buy/",
-      "pubDate": "Thu, 22 Oct 2026 17:48:06 +0200",
-      "image": "https://i05.appmifile.com/564_item_se/20/05/2025/2ae93a29a78a8cf1a5bcff1477174cba.png"
     }
   ]
 }
