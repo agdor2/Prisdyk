@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-01T16:19:40.677773+00:00",
+  "updatedAt": "2026-11-01T17:16:07.087310+00:00",
   "items": [
+    {
+      "title": "Av: StorMatte",
+      "description": "<div><p>Produkt: Asus Prime 9070 XT <br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/grafikkort-gpu/asus-prime-amd-radeon-rx-9070-xt-oc-grafikkort-svart/883870\">Elgiganten</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155124/asus-prime-radeon-rx-9070-xt-16gb-oc\">https://prisgeek.se/produkt/155124/asus-prime-radeon-rx-9070-...</a><br />\nPris: 8990kr</p><p>Är man på jakt efter ett grafikkort i denna klass tror jag spontant att det kan vara läge att slå till. Man får inte ens ett 5070 för dom pengarna idag och även priserna på AMD verkar vara på väg uppåt.</p></div>",
+      "content": "<div><p>Produkt: Asus Prime 9070 XT <br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/grafikkort-gpu/asus-prime-amd-radeon-rx-9070-xt-oc-grafikkort-svart/883870\">Elgiganten</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155124/asus-prime-radeon-rx-9070-xt-16gb-oc\">https://prisgeek.se/produkt/155124/asus-prime-radeon-rx-9070-...</a><br />\nPris: 8990kr</p><p>Är man på jakt efter ett grafikkort i denna klass tror jag spontant att det kan vara läge att slå till. Man får inte ens ett 5070 för dom pengarna idag och även priserna på AMD verkar vara på väg uppåt.</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21316078",
+      "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/grafikkort-gpu/asus-prime-amd-radeon-rx-9070-xt-oc-grafikkort-svart/883870",
+      "pubDate": "Sun, 01 Nov 2026 18:00:59 +0100"
+    },
     {
       "title": "Av: SpikeLp",
       "description": "<div><p>Produkt: Logitech G PRO X2 SUPERSTRIKE<br />\nLänk: <a href=\"https://www.elgiganten.se/product/datorer-kontor/datortillbehor/mus-tangentbord/datormus/logitech-g-pro-x2-superstrike-tradlos-mus/1019080\">Elgiganten </a><br />\nKategori: Möss<br />\nPrisjakt: <a href=\"https://www.prisjakt.nu/produkt.php?p=16029953\">Prisjakt </a><br />\nBra rabatt på en riktigt bra mus</p></div>",
@@ -240,14 +248,6 @@
       "link": "https://www.sweclockers.com/forum/post/21309234",
       "productUrl": "https://www.elgiganten.se/product/outlet/msi-geforce-rtx-5080-ventus-3x-oc-16gb-grafikkort/904511?qid=0f763e49cdbaa22a734a589b8e109f28",
       "pubDate": "Fri, 23 Oct 2026 12:10:22 +0200"
-    },
-    {
-      "title": "Av: Ohasselgren",
-      "description": "<div><p><del>Produkt: PNY GeForce RTX 5070 Ti 16GB OC 3X<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/grafikkort-gpu/pny-geforce-rtx-5070-ti-16gb-oc-3x-grafikkort/900487\">https://www.elgiganten.se/product/gaming/datorkomponenter/gra...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/350522/pny-geforce-rtx-5070-ti-16gb-oc\">https://prisgeek.se/produkt/350522/pny-geforce-rtx-5070-ti-16...</a><br />\nPris: 9999kr</del></p><p>Slutsåld!</p></div>",
-      "content": "<div><p><del>Produkt: PNY GeForce RTX 5070 Ti 16GB OC 3X<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/grafikkort-gpu/pny-geforce-rtx-5070-ti-16gb-oc-3x-grafikkort/900487\">https://www.elgiganten.se/product/gaming/datorkomponenter/gra...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/350522/pny-geforce-rtx-5070-ti-16gb-oc\">https://prisgeek.se/produkt/350522/pny-geforce-rtx-5070-ti-16...</a><br />\nPris: 9999kr</del></p><p>Slutsåld!</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21309183",
-      "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/grafikkort-gpu/pny-geforce-rtx-5070-ti-16gb-oc-3x-grafikkort/900487",
-      "pubDate": "Fri, 23 Oct 2026 10:33:50 +0200"
     }
   ]
 }
