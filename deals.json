@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-08T16:21:16.577596+00:00",
+  "updatedAt": "2026-11-08T17:19:52.389912+00:00",
   "items": [
+    {
+      "title": "Av: Kent",
+      "description": "<div><p>Inet har gratis byggnation av datorer (normalpris 999kr) t.om. 30 nov.<br />\n<a href=\"https://www.inet.se/produkt/9990387/byggnation-och-test-av-dator-med-valfria-komponenter\">https://www.inet.se/produkt/9990387/byggnation-och-test-av-da...</a></p></div>",
+      "content": "<div><p>Inet har gratis byggnation av datorer (normalpris 999kr) t.om. 30 nov.<br />\n<a href=\"https://www.inet.se/produkt/9990387/byggnation-och-test-av-dator-med-valfria-komponenter\">https://www.inet.se/produkt/9990387/byggnation-och-test-av-da...</a></p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21320759",
+      "productUrl": "https://www.inet.se/produkt/9990387/byggnation-och-test-av-dator-med-valfria-komponenter",
+      "pubDate": "Sun, 08 Nov 2026 17:32:47 +0100"
+    },
     {
       "title": "Av: haalandtheviking",
       "description": "<div><p>Produkt: Asus Dual GeForce RTX 5070 OC<br />\nLänk: <a href=\"https://www.komplett.se/product/1324036/datorutrustning/datorkomponenter/grafikkort/asus-dual-geforce-rtx-5070-oc\">https://www.komplett.se/product/1324036/datorutrustning/dator...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/155404/asus-geforce-rtx-5070-dual-12gb-oc\">https://prisgeek.se/produkt/155404/asus-geforce-rtx-5070-dual...</a><br />\nPris: 7999</p><p>42st I lager från 8 november.</p></div>",
@@ -246,14 +254,6 @@
       "link": "https://www.sweclockers.com/forum/post/21310932",
       "productUrl": "https://www.webhallen.com/se/product/401389-ASUS-VivoBook-S14-S5406SA-14?",
       "pubDate": "Sun, 25 Oct 2026 18:05:13 +0100"
-    },
-    {
-      "title": "Av: Mansion",
-      "description": "<div><p>Produkt: Logitech G Pro X Superlight 2c (vit)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/datorer-kontor/datortillbehor/mus-tangentbord/datormus/logitech-g-pro-superlight-2-kompakt-tradlos-mus-vit/968973\">https://www.elgiganten.se/product/datorer-kontor/datortillbeh...</a><br />\nKategori: Möss<br />\nPrisjakt (899): <a href=\"https://www.prisjakt.nu/produkt.php?p=15445731&amp;a-116257=White\">https://www.prisjakt.nu/produkt.php?p=15445731&amp;a-116257=White</a><br />\nPrisGeek (2 134): <a href=\"https://prisgeek.se/produkt/139016/logitech-g-pro-x-superlight-2c-mus-5-knappar-tradlos-kabelansluten-2-4-ghz-usb-vit\">https://prisgeek.se/produkt/139016/logitech-g-pro-x-superligh...</a><br />\nPris: 899 kr</p><p>All time low. OBS. Medlemspris.</p></div>",
-      "content": "<div><p>Produkt: Logitech G Pro X Superlight 2c (vit)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/datorer-kontor/datortillbehor/mus-tangentbord/datormus/logitech-g-pro-superlight-2-kompakt-tradlos-mus-vit/968973\">https://www.elgiganten.se/product/datorer-kontor/datortillbeh...</a><br />\nKategori: Möss<br />\nPrisjakt (899): <a href=\"https://www.prisjakt.nu/produkt.php?p=15445731&amp;a-116257=White\">https://www.prisjakt.nu/produkt.php?p=15445731&amp;a-116257=White</a><br />\nPrisGeek (2 134): <a href=\"https://prisgeek.se/produkt/139016/logitech-g-pro-x-superlight-2c-mus-5-knappar-tradlos-kabelansluten-2-4-ghz-usb-vit\">https://prisgeek.se/produkt/139016/logitech-g-pro-x-superligh...</a><br />\nPris: 899 kr</p><p>All time low. OBS. Medlemspris.</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21310735",
-      "productUrl": "https://www.elgiganten.se/product/datorer-kontor/datortillbehor/mus-tangentbord/datormus/logitech-g-pro-superlight-2-kompakt-tradlos-mus-vit/968973",
-      "pubDate": "Sun, 25 Oct 2026 12:38:13 +0100"
     }
   ]
 }
