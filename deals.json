@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-10T19:18:03.928258+00:00",
+  "updatedAt": "2026-11-10T20:29:10.709095+00:00",
   "items": [
+    {
+      "title": "Av: Anbessa",
+      "description": "<div><p>Produkt: ASUS TUF 14 - Ryzen AI Max+ 32GB 1TB<br />\nLänk: <a href=\"https://www.inet.se/produkt/1978756/asus-tuf-14-ryzen-ai-max-32gb-1tb\">https://www.inet.se/produkt/1978756/asus-tuf-14-ryzen-ai-max-...</a><br />\nKategori: Datorer<br />\nPrisgeek: Priset visas inte på Prisgeek<br />\nPris: 17990kr</p></div>",
+      "content": "<div><p>Produkt: ASUS TUF 14 - Ryzen AI Max+ 32GB 1TB<br />\nLänk: <a href=\"https://www.inet.se/produkt/1978756/asus-tuf-14-ryzen-ai-max-32gb-1tb\">https://www.inet.se/produkt/1978756/asus-tuf-14-ryzen-ai-max-...</a><br />\nKategori: Datorer<br />\nPrisgeek: Priset visas inte på Prisgeek<br />\nPris: 17990kr</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21322265",
+      "productUrl": "https://www.inet.se/produkt/1978756/asus-tuf-14-ryzen-ai-max-32gb-1tb",
+      "pubDate": "Tue, 10 Nov 2026 20:33:00 +0100"
+    },
     {
       "title": "Av: DR3AM2",
       "description": "<div><p>Ubiquiti Black Friday har startat<br />\n<a href=\"https://eu.store.ui.com/eu/en/tags/black-friday\">https://eu.store.ui.com/eu/en/tags/black-friday</a></p><p>Produkt: Ubiquiti UVC-G5-Pro<br />\nLänk: <a href=\"https://eu.store.ui.com/eu/en/category/physical-security-bullet/products/uvc-g5-pro\">https://eu.store.ui.com/eu/en/category/physical-security-bull...</a><br />\nKategori: Övervakningskamera<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/157097/ubiquiti-g5-pro-4k-overvakningskamer-vit\">https://prisgeek.se/produkt/157097/ubiquiti-g5-pro-4k-overvak...</a><br />\nPris: 2369kr</p><p>Produkt: Ubiquiti UVC-AI-Pro<br />\nLänk: <a href=\"https://eu.store.ui.com/eu/en/category/physical-security-bullet/products/uvc-ai-pro\">https://eu.store.ui.com/eu/en/category/physical-security-bull...</a><br />\nKategori: Övervakningskamera<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/105024/ubiquiti-ai-pro-natverksovervakningskamera-ino\">https://prisgeek.se/produkt/105024/ubiquiti-ai-pro-natverksov...</a><br />\nPris: 4169kr</p><p>Produkt: Ubiquiti U-Rack-6U-TL Toolless Mini Rack<br />\nLänk: <a href=\"https://eu.store.ui.com/eu/en/category/accessories-rack-mount/products/toolless-mini-rack\">https://eu.store.ui.com/eu/en/category/accessories-rack-mount...</a><br />\nKategori: Serverrack<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/107435/ubiquiti-u-rack-6u-tl-toolless-mini-rack\">https://prisgeek.se/produkt/107435/ubiquiti-u-rack-6u-tl-tool...</a><br />\nPris: 2369kr</p></div>",
@@ -248,14 +256,6 @@
       "link": "https://www.sweclockers.com/forum/post/21312117",
       "productUrl": "https://www.webhallen.com/se/product/395417-Roborock-Qrevo-Edge-2-Pro-White",
       "pubDate": "Tue, 27 Oct 2026 11:20:29 +0100"
-    },
-    {
-      "title": "Av: Norrwie",
-      "description": "<div><p>Produkt: Glorious GMMK 3 HE 75% Black - Hall Effect Fox (Medlemspris)<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-HE-75-Black-Pre-Built-Nordic-ISO-Hall-Effect-Fox\">https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-H...</a><br />\nKategori: Tangentbord<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nordisk-svart\">https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nord...</a><br />\nPris: 699kr</p></div>",
-      "content": "<div><p>Produkt: Glorious GMMK 3 HE 75% Black - Hall Effect Fox (Medlemspris)<br />\nLänk: <a href=\"https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-HE-75-Black-Pre-Built-Nordic-ISO-Hall-Effect-Fox\">https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-H...</a><br />\nKategori: Tangentbord<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nordisk-svart\">https://prisgeek.se/produkt/100366/glorious-gmmk-3-he-75-nord...</a><br />\nPris: 699kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21312077",
-      "productUrl": "https://www.webhallen.com/se/product/374260-Glorious-GMMK-3-HE-75-Black-Pre-Built-Nordic-ISO-Hall-Effect-Fox",
-      "pubDate": "Tue, 27 Oct 2026 10:36:58 +0100"
     }
   ]
 }
