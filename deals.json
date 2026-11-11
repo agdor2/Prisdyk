@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-11T09:14:40.089600+00:00",
+  "updatedAt": "2026-11-11T10:19:51.754107+00:00",
   "items": [
     {
       "title": "Av: Edin",
@@ -254,7 +254,8 @@
       "content": "<div><p>Produkt: AMD Ryzen 7 5800X3D 3.4 GHz 96MB<br />\nLänk: <a href=\"http://www.inet.se/produkt/5307802/amd-ryzen-7-5800x3d-3-4-ghz-96mb-medlemskampanj-50st\">www.inet.se/produkt/5307802/amd-ryzen-7-5800x3d-3-4-ghz-96mb-...</a><br />\nKategori: Processorer<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/153477/amd-ryzen-7-5800x3d-10th-anniversary-edition\">https://prisgeek.se/produkt/153477/amd-ryzen-7-5800x3d-10th-a...</a><br />\nPris: 2499kr</p><p>Kräver att man är guldmedlem hos Inet, begränsat antal, 50 st, lär ta slut fort.</p></div>",
       "link": "https://www.sweclockers.com/forum/post/21312152",
       "productUrl": "https://prisgeek.se/produkt/153477/amd-ryzen-7-5800x3d-10th-anniversary-edition",
-      "pubDate": "Tue, 27 Oct 2026 11:56:33 +0100"
+      "pubDate": "Tue, 27 Oct 2026 11:56:33 +0100",
+      "image": "https://inishop.com/img/gallery/8d058a5d4f76fa46a72d79d2cf6cea3ae12590a5.jpg"
     }
   ]
 }
