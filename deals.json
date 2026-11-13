@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-13T08:03:34.636981+00:00",
+  "updatedAt": "2026-11-13T09:17:30.632336+00:00",
   "items": [
+    {
+      "title": "Av: edson",
+      "description": "<div><p>Produkt: ASUS 32&quot; ROG Strix XG32UCWMG OLED 4K 240/480 Hz Dual Mode<br />\nLänk: <a href=\"https://www.inet.se/produkt/2227731/asus-32-rog-strix-xg32ucwmg-oled-4k-240-480-hz-dual-mode\">https://www.inet.se/produkt/2227731/asus-32-rog-strix-xg32ucw...</a><br />\nKategori: Skärmar<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/143549/asus-rog-strix-xg32ucwmg-32-3840x2160-woled-240hz-0-03ms-hdr10-2xhdmi-dp\">https://prisgeek.se/produkt/143549/asus-rog-strix-xg32ucwmg-3...</a><br />\nPris: 8490kr</p><p>Tror detta är all-time low för denna glossy 32&quot; 4K/240Hz WOLED-skärm!</p></div>",
+      "content": "<div><p>Produkt: ASUS 32&quot; ROG Strix XG32UCWMG OLED 4K 240/480 Hz Dual Mode<br />\nLänk: <a href=\"https://www.inet.se/produkt/2227731/asus-32-rog-strix-xg32ucwmg-oled-4k-240-480-hz-dual-mode\">https://www.inet.se/produkt/2227731/asus-32-rog-strix-xg32ucw...</a><br />\nKategori: Skärmar<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/143549/asus-rog-strix-xg32ucwmg-32-3840x2160-woled-240hz-0-03ms-hdr10-2xhdmi-dp\">https://prisgeek.se/produkt/143549/asus-rog-strix-xg32ucwmg-3...</a><br />\nPris: 8490kr</p><p>Tror detta är all-time low för denna glossy 32&quot; 4K/240Hz WOLED-skärm!</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21324265",
+      "productUrl": "https://www.inet.se/produkt/2227731/asus-32-rog-strix-xg32ucwmg-oled-4k-240-480-hz-dual-mode",
+      "pubDate": "Fri, 13 Nov 2026 09:04:13 +0100"
+    },
     {
       "title": "Av: Mumu55",
       "description": "<div><p>Produkt: Dell Alienware 27&quot; AW2725D QD-OLED 1440p 280Hz<br />\nLänk: <a href=\"https://www.inet.se/produkt/2227727/dell-27-alienware-aw2725d-oled-qhd-280-hz?\">https://www.inet.se/produkt/2227727/dell-27-alienware-aw2725d...</a><br />\nKategori: Skärmar<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/111916/dell-27-alienware-aw2725d-oled-qhd-280-hz\">https://prisgeek.se/produkt/111916/dell-27-alienware-aw2725d-...</a><br />\nPris: 4490 kr</p></div>",
@@ -243,15 +251,6 @@
       "productUrl": "https://www.komplett.se/product/1318013/datorutrustning/datorkomponenter/grafikkort/asus-prime-geforce-rtx-5080-oc?",
       "pubDate": "Mon, 02 Nov 2026 02:56:42 +0100",
       "image": "https://www.komplett.se/product-media/b2c/en-us/200/1318013.jpg"
-    },
-    {
-      "title": "Av: haalandtheviking",
-      "description": "<div><p>Produkt: Asus Dual GeForce RTX 5060 Ti OC 16GB<br />\nLänk: <a href=\"https://www.komplett.se/product/1323440/datorutrustning/datorkomponenter/grafikkort/asus-dual-geforce-rtx-5060-ti-oc?\">https://www.komplett.se/product/1323440/datorutrustning/dator...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/149198/asus-geforce-rtx-5060ti-dual-16gb-oc\">https://prisgeek.se/produkt/149198/asus-geforce-rtx-5060ti-du...</a><br />\nPris: 7849</p></div>",
-      "content": "<div><p>Produkt: Asus Dual GeForce RTX 5060 Ti OC 16GB<br />\nLänk: <a href=\"https://www.komplett.se/product/1323440/datorutrustning/datorkomponenter/grafikkort/asus-dual-geforce-rtx-5060-ti-oc?\">https://www.komplett.se/product/1323440/datorutrustning/dator...</a><br />\nKategori: Grafikkort<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/149198/asus-geforce-rtx-5060ti-dual-16gb-oc\">https://prisgeek.se/produkt/149198/asus-geforce-rtx-5060ti-du...</a><br />\nPris: 7849</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21316102",
-      "productUrl": "https://www.komplett.se/product/1323440/datorutrustning/datorkomponenter/grafikkort/asus-dual-geforce-rtx-5060-ti-oc?",
-      "pubDate": "Sun, 01 Nov 2026 18:27:16 +0100",
-      "image": "https://www.komplett.se/product-media/b2c/en-us/200/1323440.jpg"
     }
   ]
 }
