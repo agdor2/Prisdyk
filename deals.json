@@ -1,8 +1,17 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-14T15:23:36.496342+00:00",
+  "updatedAt": "2026-11-14T16:23:13.532137+00:00",
   "items": [
+    {
+      "title": "Av: Slitenheten",
+      "description": "<div><p>Produkt: Skärm - DELL - S3225QC - OLED 32&apos;&apos; - 4K (3840x2160) - 120 Hz<br />\nLänk: <a href=\"https://cdon.se/produkt/dell-s3225qc-15eb577abb575216/\">https://cdon.se/produkt/dell-s3225qc-15eb577abb575216/</a><br />\nKategori: Skärm<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/104148/dell-32-dell-plus-s3225qc-3840x2160-4k-120hz-qd-oled\">https://prisgeek.se/produkt/104148/dell-32-dell-plus-s3225qc-...</a><br />\nPris: 4956:-</p><p>32&quot; QD-Oled med inbyggd soundbar 25w, 0,03ms och 120hz i 4k. Bra pris om man är casual gamer och bara vill ha en stor bra all around skärm med oled.</p></div>",
+      "content": "<div><p>Produkt: Skärm - DELL - S3225QC - OLED 32&apos;&apos; - 4K (3840x2160) - 120 Hz<br />\nLänk: <a href=\"https://cdon.se/produkt/dell-s3225qc-15eb577abb575216/\">https://cdon.se/produkt/dell-s3225qc-15eb577abb575216/</a><br />\nKategori: Skärm<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/104148/dell-32-dell-plus-s3225qc-3840x2160-4k-120hz-qd-oled\">https://prisgeek.se/produkt/104148/dell-32-dell-plus-s3225qc-...</a><br />\nPris: 4956:-</p><p>32&quot; QD-Oled med inbyggd soundbar 25w, 0,03ms och 120hz i 4k. Bra pris om man är casual gamer och bara vill ha en stor bra all around skärm med oled.</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21325433",
+      "productUrl": "https://cdon.se/produkt/dell-s3225qc-15eb577abb575216/",
+      "pubDate": "Sat, 14 Nov 2026 16:36:06 +0100",
+      "image": "https://images.cdon.com/images/f_auto/t_600x600/cdon-prod/2c2e69e2f30845d2/b02bb542e820/dell-s3225qc"
+    },
     {
       "title": "Av: Mumu55",
       "description": "<div><p>Produkt: Phanteks M25-120 G2 Reverse D-RGB 120mm Svart 2000rpm PWM (klubbpris)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/datorflaktar-kylning/datorflakt-chassiflakt/phanteks-m25-gen2-reversed-airflow-drgb-120mm-pwm-flakt-svart/909466\">https://www.elgiganten.se/product/gaming/datorkomponenter/dat...</a><br />\nKategori: Kylning<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/121047/phanteks-m25-120-g2-reverse-d-rgb-svart-1-pack\">https://prisgeek.se/produkt/121047/phanteks-m25-120-g2-revers...</a><br />\nPris: 99kr</p><p>Klubbpris kräver inloggning och gratis medlemsskap.</p></div>",
@@ -241,14 +250,6 @@
       "link": "https://www.sweclockers.com/forum/post/21324345",
       "productUrl": "https://www.netonnet.se/art/gaming/gamingskarm/gamingskarm-31-57-tum/msi-msi-34-341cqp-x28/1068380.18234/",
       "pubDate": "Fri, 13 Nov 2026 10:25:28 +0100"
-    },
-    {
-      "title": "Av: Mumu55",
-      "description": "<div><p>Produkt: Beyerdynamic MMX 150 trådlöst gamingheadset vit<br />\nLänk: <a href=\"https://www.inet.se/produkt/6603462/beyerdynamic-mmx-150-wireless-vit\">https://www.inet.se/produkt/6603462/beyerdynamic-mmx-150-wire...</a><br />\nKategori: Ljud<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/143905/beyerdynamic-mmx-150-tradlost-gamingheadset-vit\">https://prisgeek.se/produkt/143905/beyerdynamic-mmx-150-tradl...</a><br />\nPris: 1499 kr</p></div>",
-      "content": "<div><p>Produkt: Beyerdynamic MMX 150 trådlöst gamingheadset vit<br />\nLänk: <a href=\"https://www.inet.se/produkt/6603462/beyerdynamic-mmx-150-wireless-vit\">https://www.inet.se/produkt/6603462/beyerdynamic-mmx-150-wire...</a><br />\nKategori: Ljud<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/143905/beyerdynamic-mmx-150-tradlost-gamingheadset-vit\">https://prisgeek.se/produkt/143905/beyerdynamic-mmx-150-tradl...</a><br />\nPris: 1499 kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21324342",
-      "productUrl": "https://www.inet.se/produkt/6603462/beyerdynamic-mmx-150-wireless-vit",
-      "pubDate": "Fri, 13 Nov 2026 10:23:36 +0100"
     }
   ]
 }
