@@ -1,8 +1,17 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-16T06:52:19.026600+00:00",
+  "updatedAt": "2026-11-16T09:55:14.572280+00:00",
   "items": [
+    {
+      "title": "Av: edson",
+      "description": "<div><p>Produkt: Apple AirPods Pro 3 Trådlösa In-ear ANC Hörlurar<br />\nLänk: <a href=\"https://www.elon.se/apple-airpods-pro-3-151400\">https://www.elon.se/apple-airpods-pro-3-151400</a><br />\nKategori: Ljud<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/124117/apple-airpods-pro-3-true-wireless-horlurar-med-m\">https://prisgeek.se/produkt/124117/apple-airpods-pro-3-true-w...</a><br />\nPris: 1990kr</p><p>Svårt att se att det kommer bli billigare? Kanonpris!</p><p>Edit: Tog slut på webben fort, verkar fortfarande finns tillgänglig via butik.</p></div>",
+      "content": "<div><p>Produkt: Apple AirPods Pro 3 Trådlösa In-ear ANC Hörlurar<br />\nLänk: <a href=\"https://www.elon.se/apple-airpods-pro-3-151400\">https://www.elon.se/apple-airpods-pro-3-151400</a><br />\nKategori: Ljud<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/124117/apple-airpods-pro-3-true-wireless-horlurar-med-m\">https://prisgeek.se/produkt/124117/apple-airpods-pro-3-true-w...</a><br />\nPris: 1990kr</p><p>Svårt att se att det kommer bli billigare? Kanonpris!</p><p>Edit: Tog slut på webben fort, verkar fortfarande finns tillgänglig via butik.</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21326410",
+      "productUrl": "https://www.elon.se/apple-airpods-pro-3-151400",
+      "pubDate": "Mon, 16 Nov 2026 08:26:14 +0100",
+      "image": "https://www.elon.se/media/catalog/product/cache/4a7519116f56bb2b1b4ce32ae0308710/1/5/151400_1_332610cd38d9f523a5f5b7fbb8479d95.jpeg"
+    },
     {
       "title": "Av: ZpeedX",
       "description": "<div><p>Produkt: Komplett-PC Epic Gaming a340 RGB – RTX 5080 / 9800X3D (art.nr 1318972)<br />\nLänk: <a href=\"http://www.komplett.se/product/1318972/gaming/gamingdator/gamingdator-stationar/komplett-pc-epic-gaming-a340-rgb-rtx-5080-edition\">http://www.komplett.se/product/1318972/gaming/gamingdator/gam...</a><br />\nKategori: Färdigbyggd dator<br />\nPris: 34 478 kr <br />\n<del>33 534 kr</del> &lt;- Lyckades få den till det priset genom en bugg men det slutade funka</p><p>Konfiguration:<br />\n- Gigabyte RTX 5080 Windforce OC SFF 16GB<br />\n- AMD Ryzen 7 9800X3D<br />\n- Corsair Vengeance RGB 32GB (2x16) DDR5-6000 CL38<br />\n- ASUS TUF Gaming B850-Plus WiFi<br />\n- Corsair Nautilus 360 ARGB<br />\n- Kingston NV3 1TB<br />\n- ASUS TUF Gaming 850W Gold EVO (ATX 3.1)<br />\n- Corsair FRAME 4000D ARGB<br />\n- 3 års inskicksgaranti, utan OS</p><p>Bara att byta komponenterna till listan ovan så får man samma pris, eller billigare om man byter till andra komponenter</p></div>",
@@ -240,14 +249,6 @@
       "link": "https://www.sweclockers.com/forum/post/21325055",
       "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/datorflaktar-kylning/datorflakt-chassiflakt/havn-h12-120-mm-flakt-vit/1056964",
       "pubDate": "Sat, 14 Nov 2026 08:47:36 +0100"
-    },
-    {
-      "title": "Av: Mumu55",
-      "description": "<div><p>Produkt: HAVN H12 120mm fläkt Svart (klubbpris)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/datorflaktar-kylning/datorflakt-chassiflakt/havn-h12-120-mm-flakt-svart/1056962\">https://www.elgiganten.se/product/gaming/datorkomponenter/dat...</a><br />\nKategori: Kylning<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/143042/havn-h12-svart\">https://prisgeek.se/produkt/143042/havn-h12-svart</a><br />\nPris: 129kr</p></div>",
-      "content": "<div><p>Produkt: HAVN H12 120mm fläkt Svart (klubbpris)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/datorflaktar-kylning/datorflakt-chassiflakt/havn-h12-120-mm-flakt-svart/1056962\">https://www.elgiganten.se/product/gaming/datorkomponenter/dat...</a><br />\nKategori: Kylning<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/143042/havn-h12-svart\">https://prisgeek.se/produkt/143042/havn-h12-svart</a><br />\nPris: 129kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21325054",
-      "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/datorflaktar-kylning/datorflakt-chassiflakt/havn-h12-120-mm-flakt-svart/1056962",
-      "pubDate": "Sat, 14 Nov 2026 08:46:59 +0100"
     }
   ]
 }
