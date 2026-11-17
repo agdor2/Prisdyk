@@ -1,8 +1,17 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-17T17:49:07.161815+00:00",
+  "updatedAt": "2026-11-17T19:24:56.234798+00:00",
   "items": [
+    {
+      "title": "Av: DankoJones",
+      "description": "<div><p>Produkt: Playstation Plus Premium<br />\nLänk: <a href=\"https://www.playstation.com/sv-se/deals/black-friday/#subscriptions\">https://www.playstation.com/sv-se/deals/black-friday/#subscri...</a><br />\nKategori: Övrigt<br />\nPris: 1085,40kr</p><p>Black friday-priser på PlayStation®Plus-medlemskap</p></div>",
+      "content": "<div><p>Produkt: Playstation Plus Premium<br />\nLänk: <a href=\"https://www.playstation.com/sv-se/deals/black-friday/#subscriptions\">https://www.playstation.com/sv-se/deals/black-friday/#subscri...</a><br />\nKategori: Övrigt<br />\nPris: 1085,40kr</p><p>Black friday-priser på PlayStation®Plus-medlemskap</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21327859",
+      "productUrl": "https://www.playstation.com/sv-se/deals/black-friday/#subscriptions",
+      "pubDate": "Tue, 17 Nov 2026 20:15:12 +0100",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/black-friday-2024-keyart-01-31out24$sv?$facebook$"
+    },
     {
       "title": "Av: SnowgubbeN",
       "description": "<div><p>Produkt: Amazon Fire Stick 4k Max <i>(Internationell version) </i><br />\nLänk: <a href=\"https://www.amazon.se/Amazon-Fire-TV-Stick-4K-Max/dp/B0CW4RD4TW\">https://www.amazon.se/Amazon-Fire-TV-Stick-4K-Max/dp/B0CW4RD4...</a><br />\nKategori: Mediaspelare<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/105502/amazon-fire-tv-stick-4k-max\">https://prisgeek.se/produkt/105502/amazon-fire-tv-stick-4k-ma...</a><br />\nPris: 565kr - <i>Early Black Friday</i></p></div>",
@@ -242,14 +251,6 @@
       "link": "https://www.sweclockers.com/forum/post/21325184",
       "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/psu-nataggregat-till-dator/psu/gigabyte-ud1000gm-pg5-1000w-nataggregat-svart/937715",
       "pubDate": "Sat, 14 Nov 2026 11:59:06 +0100"
-    },
-    {
-      "title": "Av: Mumu55",
-      "description": "<div><p>Produkt: Cooler Master MWE Gold 850 V3 850W 80+ Gold ATX 3.1 120mm (Klubbpris)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/psu-nataggregat-till-dator/psu/cooler-master-mwe-gold-v3-nm-850w-nataggregat-svart/991613\">https://www.elgiganten.se/product/gaming/datorkomponenter/psu...</a><br />\nKategori: Nätaggregat<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/147023/cooler-master-mwe-gold-850-v3-power-supply-unit-stromforsorjning-850-watt-atx-80-plus-gold-certificate\">https://prisgeek.se/produkt/147023/cooler-master-mwe-gold-850...</a><br />\nPris: 729 kr</p><p>Klubbpris kräver inloggning och gratis medlemsskap.</p></div>",
-      "content": "<div><p>Produkt: Cooler Master MWE Gold 850 V3 850W 80+ Gold ATX 3.1 120mm (Klubbpris)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/psu-nataggregat-till-dator/psu/cooler-master-mwe-gold-v3-nm-850w-nataggregat-svart/991613\">https://www.elgiganten.se/product/gaming/datorkomponenter/psu...</a><br />\nKategori: Nätaggregat<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/147023/cooler-master-mwe-gold-850-v3-power-supply-unit-stromforsorjning-850-watt-atx-80-plus-gold-certificate\">https://prisgeek.se/produkt/147023/cooler-master-mwe-gold-850...</a><br />\nPris: 729 kr</p><p>Klubbpris kräver inloggning och gratis medlemsskap.</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21325180",
-      "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/psu-nataggregat-till-dator/psu/cooler-master-mwe-gold-v3-nm-850w-nataggregat-svart/991613",
-      "pubDate": "Sat, 14 Nov 2026 11:56:05 +0100"
     }
   ]
 }
