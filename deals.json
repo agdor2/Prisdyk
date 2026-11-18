@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-18T09:23:32.392265+00:00",
+  "updatedAt": "2026-11-18T10:44:47.638136+00:00",
   "items": [
+    {
+      "title": "Av: zOlid",
+      "description": "<div><p>Produkt: AMD Ryzen 7 9800X3D Processor<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/processor-cpu/amd-ryzen-7-9800x3d-processor/861201\">https://www.elgiganten.se/product/gaming/datorkomponenter/pro...</a><br />\nKategori: Processorer<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/154392/amd-ryzen-7-9800x3d-8-cores-16-threads-4-7ghz\">https://prisgeek.se/produkt/154392/amd-ryzen-7-9800x3d-8-core...</a><br />\nPris: 4149kr</p><p>Samma pris finns även hos Webhallen och NetOnNet</p></div>",
+      "content": "<div><p>Produkt: AMD Ryzen 7 9800X3D Processor<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/processor-cpu/amd-ryzen-7-9800x3d-processor/861201\">https://www.elgiganten.se/product/gaming/datorkomponenter/pro...</a><br />\nKategori: Processorer<br />\nPrisGeek: <a href=\"https://prisgeek.se/produkt/154392/amd-ryzen-7-9800x3d-8-cores-16-threads-4-7ghz\">https://prisgeek.se/produkt/154392/amd-ryzen-7-9800x3d-8-core...</a><br />\nPris: 4149kr</p><p>Samma pris finns även hos Webhallen och NetOnNet</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21328194",
+      "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/processor-cpu/amd-ryzen-7-9800x3d-processor/861201",
+      "pubDate": "Wed, 18 Nov 2026 11:24:16 +0100"
+    },
     {
       "title": "Av: DankoJones",
       "description": "<div><p>Produkt: Playstation Plus Premium<br />\nLänk: <a href=\"https://www.playstation.com/sv-se/deals/black-friday/#subscriptions\">https://www.playstation.com/sv-se/deals/black-friday/#subscri...</a><br />\nKategori: Övrigt<br />\nPris: 1085,40kr</p><p>Black friday-priser på PlayStation®Plus-medlemskap</p></div>",
@@ -243,14 +251,6 @@
       "link": "https://www.sweclockers.com/forum/post/21325186",
       "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/psu-nataggregat-till-dator/psu/corsair-rm850e-thermalprotect-nataggregat-850w/1133806",
       "pubDate": "Sat, 14 Nov 2026 12:04:27 +0100"
-    },
-    {
-      "title": "Av: Mumu55",
-      "description": "<div><p>Produkt: Gigabyte UD1000GM PG5 V2 1000W 80+ Gold Helmodulär ATX 3.1 120mm (Klubbpris)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/psu-nataggregat-till-dator/psu/gigabyte-ud1000gm-pg5-1000w-nataggregat-svart/937715\">https://www.elgiganten.se/product/gaming/datorkomponenter/psu...</a><br />\nKategori: Nätaggregat<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/157808/gigabyte-ud1000gm-pg5-v2-stromforsorjning-1000-watt-120-mm-atx-3-1-80-plus-gold\">https://prisgeek.se/produkt/157808/gigabyte-ud1000gm-pg5-v2-s...</a>-<br />\nPris: 1049 kr</p><p>Klubbpris kräver inloggning och gratis medlemsskap.</p></div>",
-      "content": "<div><p>Produkt: Gigabyte UD1000GM PG5 V2 1000W 80+ Gold Helmodulär ATX 3.1 120mm (Klubbpris)<br />\nLänk: <a href=\"https://www.elgiganten.se/product/gaming/datorkomponenter/psu-nataggregat-till-dator/psu/gigabyte-ud1000gm-pg5-1000w-nataggregat-svart/937715\">https://www.elgiganten.se/product/gaming/datorkomponenter/psu...</a><br />\nKategori: Nätaggregat<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/157808/gigabyte-ud1000gm-pg5-v2-stromforsorjning-1000-watt-120-mm-atx-3-1-80-plus-gold\">https://prisgeek.se/produkt/157808/gigabyte-ud1000gm-pg5-v2-s...</a>-<br />\nPris: 1049 kr</p><p>Klubbpris kräver inloggning och gratis medlemsskap.</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21325184",
-      "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/psu-nataggregat-till-dator/psu/gigabyte-ud1000gm-pg5-1000w-nataggregat-svart/937715",
-      "pubDate": "Sat, 14 Nov 2026 11:59:06 +0100"
     }
   ]
 }
