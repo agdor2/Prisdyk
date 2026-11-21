@@ -1,8 +1,17 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-21T16:25:21.130315+00:00",
+  "updatedAt": "2026-11-21T21:55:20.435981+00:00",
   "items": [
+    {
+      "title": "Av: jussit",
+      "description": "<div><p>Såg ett erbjudande som någon kanske är intresserad av. (Kräver installation av sattelitmottagare)</p><p>Produkt: Starlink Bredband<br />\nLänk: <a href=\"https://starlink.com/se\">https://starlink.com/se</a><br />\nPris: 50% på abonnemang - ingen bindningstid, ingen uppsägningstid - ex 100 mbit 185kr/mån<br />\nT.om 30/11</p></div>",
+      "content": "<div><p>Såg ett erbjudande som någon kanske är intresserad av. (Kräver installation av sattelitmottagare)</p><p>Produkt: Starlink Bredband<br />\nLänk: <a href=\"https://starlink.com/se\">https://starlink.com/se</a><br />\nPris: 50% på abonnemang - ingen bindningstid, ingen uppsägningstid - ex 100 mbit 185kr/mån<br />\nT.om 30/11</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21330802",
+      "productUrl": "https://starlink.com/se",
+      "pubDate": "Sat, 21 Nov 2026 19:37:14 +0100",
+      "image": "https://starlink.com/assets-new/images/landing/field/v4_night_sky.webp"
+    },
     {
       "title": "Av: Mono",
       "description": "<div><p><b>Produkt:</b> Final Fantasy Resonance (PS5) <br />\n<b>Länk:</b> <a href=\"https://www.spelbutiken.se/produkt/final-fantasy-resonance/23XS4P/?\">https://www.spelbutiken.se/produkt/final-fantasy-resonance/23...</a><br />\n<b>Kategori:</b> TV-spel<br />\n<b>PrisGeek:</b> <a href=\"https://prisgeek.se/produkt/118214/ps5-final-fantasy-resonance-ps5\">https://prisgeek.se/produkt/118214/ps5-final-fantasy-resonanc...</a><br />\n<b>Pris:</b> 369kr</p><p><b>Produkt:</b> The Adventures Of Elliot: The Millenium Tales (PS5) <br />\n<b>Länk:</b> <a href=\"https://www.spelbutiken.se/produkt/adventures-of-elliot-millenium-tales/23SY97/\">https://www.spelbutiken.se/produkt/adventures-of-elliot-mille...</a><br />\n<b>Kategori:</b> TV-spel<br />\n<b>PrisGeek:</b> <a href=\"https://prisgeek.se/produkt/108422/square-enix-adventures-of-elliot-ps5\">https://prisgeek.se/produkt/108422/square-enix-adventures-of-...</a><br />\n<b>Pris:</b> 349kr</p></div>",
@@ -243,14 +252,6 @@
       "productUrl": "https://www.kjell.com/se/produkter/mobilt/las-surfplattor/surfplattor-med-android/tcl-tab-10l-4th-gen-wifi-128gb-p60915?",
       "pubDate": "Sat, 14 Nov 2026 13:25:50 +0100",
       "image": "https://www.kjell.com/cdn-cgi/image/width=1000,height=1000,fit=pad,format=auto/globalassets/productimages/926637_60915_01.jpg?ref=41672EC17D"
-    },
-    {
-      "title": "Av: Mumu55",
-      "description": "<div><p>Produkt: Montech King 45 Pro Mid Tower Svart Panorama ATX<br />\nLänk: <a href=\"https://www.inet.se/produkt/6907762/montech-king-45-svart\">https://www.inet.se/produkt/6907762/montech-king-45-svart</a><br />\nKategori: Chassin<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/202270/montech-king-45-pro-black-chassi-miditower-svart\">https://prisgeek.se/produkt/202270/montech-king-45-pro-black-...</a><br />\nPris: 599 kr</p></div>",
-      "content": "<div><p>Produkt: Montech King 45 Pro Mid Tower Svart Panorama ATX<br />\nLänk: <a href=\"https://www.inet.se/produkt/6907762/montech-king-45-svart\">https://www.inet.se/produkt/6907762/montech-king-45-svart</a><br />\nKategori: Chassin<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/202270/montech-king-45-pro-black-chassi-miditower-svart\">https://prisgeek.se/produkt/202270/montech-king-45-pro-black-...</a><br />\nPris: 599 kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21325247",
-      "productUrl": "https://www.inet.se/produkt/6907762/montech-king-45-svart",
-      "pubDate": "Sat, 14 Nov 2026 13:08:32 +0100"
     }
   ]
 }
