@@ -1,8 +1,16 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-21T21:55:20.435981+00:00",
+  "updatedAt": "2026-11-22T02:19:23.695488+00:00",
   "items": [
+    {
+      "title": "Av: Blade@LCD",
+      "description": "<div><p>Produkt: MSI MEG Maestro 700L<br />\nLänk: <a href=\"https://www.inet.se/produkt/6906603/msi-meg-maestro-700l\">https://www.inet.se/produkt/6906603/msi-meg-maestro-700l</a><br />\nKategori: Chassi<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/154270/msi-meg-maestro-700l\">https://prisgeek.se/produkt/154270/msi-meg-maestro-700l</a><br />\nPris: 2399 kr</p><p>MSI stora chassi nyhet för två år sedan som då kostade $4000. Chassit är tillverkat i 2.5mm tjockt aluminium med 270-graders panoramaglas i ett enda stycke. Det ingår en PCIe 4.0 x16 riser-kabel och ett vertikal GPU monteringskit.</p></div>",
+      "content": "<div><p>Produkt: MSI MEG Maestro 700L<br />\nLänk: <a href=\"https://www.inet.se/produkt/6906603/msi-meg-maestro-700l\">https://www.inet.se/produkt/6906603/msi-meg-maestro-700l</a><br />\nKategori: Chassi<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/154270/msi-meg-maestro-700l\">https://prisgeek.se/produkt/154270/msi-meg-maestro-700l</a><br />\nPris: 2399 kr</p><p>MSI stora chassi nyhet för två år sedan som då kostade $4000. Chassit är tillverkat i 2.5mm tjockt aluminium med 270-graders panoramaglas i ett enda stycke. Det ingår en PCIe 4.0 x16 riser-kabel och ett vertikal GPU monteringskit.</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21330926",
+      "productUrl": "https://www.inet.se/produkt/6906603/msi-meg-maestro-700l",
+      "pubDate": "Sat, 21 Nov 2026 23:20:13 +0100"
+    },
     {
       "title": "Av: jussit",
       "description": "<div><p>Såg ett erbjudande som någon kanske är intresserad av. (Kräver installation av sattelitmottagare)</p><p>Produkt: Starlink Bredband<br />\nLänk: <a href=\"https://starlink.com/se\">https://starlink.com/se</a><br />\nPris: 50% på abonnemang - ingen bindningstid, ingen uppsägningstid - ex 100 mbit 185kr/mån<br />\nT.om 30/11</p></div>",
@@ -243,15 +251,6 @@
       "link": "https://www.sweclockers.com/forum/post/21325301",
       "productUrl": "https://www.elgiganten.se/product/gaming/datorkomponenter/datorflaktar-kylning/datorflakt-chassiflakt/phanteks-m25-gen2-140mm-pwm-flakt-svart/909465?",
       "pubDate": "Sat, 14 Nov 2026 14:08:06 +0100"
-    },
-    {
-      "title": "Av: Mumu55",
-      "description": "<div><p>Produkt: TCL TAB 10L Gen4 10.1&quot; 4GB 128GB MT8786 IPS 1280x800 6000mAh<br />\nLänk: <a href=\"https://www.kjell.com/se/produkter/mobilt/las-surfplattor/surfplattor-med-android/tcl-tab-10l-4th-gen-wifi-128gb-p60915?\">https://www.kjell.com/se/produkter/mobilt/las-surfplattor/sur...</a><br />\nKategori: Övrigt<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/195428/tcl-tab-10l-4th-gen-wifi-128gb\">https://prisgeek.se/produkt/195428/tcl-tab-10l-4th-gen-wifi-1...</a><br />\nPris: 1190 kr</p></div>",
-      "content": "<div><p>Produkt: TCL TAB 10L Gen4 10.1&quot; 4GB 128GB MT8786 IPS 1280x800 6000mAh<br />\nLänk: <a href=\"https://www.kjell.com/se/produkter/mobilt/las-surfplattor/surfplattor-med-android/tcl-tab-10l-4th-gen-wifi-128gb-p60915?\">https://www.kjell.com/se/produkter/mobilt/las-surfplattor/sur...</a><br />\nKategori: Övrigt<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/195428/tcl-tab-10l-4th-gen-wifi-128gb\">https://prisgeek.se/produkt/195428/tcl-tab-10l-4th-gen-wifi-1...</a><br />\nPris: 1190 kr</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21325262",
-      "productUrl": "https://www.kjell.com/se/produkter/mobilt/las-surfplattor/surfplattor-med-android/tcl-tab-10l-4th-gen-wifi-128gb-p60915?",
-      "pubDate": "Sat, 14 Nov 2026 13:25:50 +0100",
-      "image": "https://www.kjell.com/cdn-cgi/image/width=1000,height=1000,fit=pad,format=auto/globalassets/productimages/926637_60915_01.jpg?ref=41672EC17D"
     }
   ]
 }
