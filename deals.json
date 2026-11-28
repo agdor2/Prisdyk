@@ -1,8 +1,24 @@
 {
   "status": "ok",
   "source": "SweClockers",
-  "updatedAt": "2026-11-28T10:57:00.768741+00:00",
+  "updatedAt": "2026-11-28T18:59:17.236750+00:00",
   "items": [
+    {
+      "title": "Av: valkonen",
+      "description": "<div><p>Produkt: KOORUI E2711F 27 tums PC-skärm, FHD 1920 x 1080 100 Hz skärm, IPS<br />\nLänk: <a href=\"https://www.amazon.se/KOORUI-E2711F-PC-sk%C3%A4rm-adaptive-%C3%B6gonv%C3%A5rd/dp/B0DK12LHLK/\">https://www.amazon.se/KOORUI-E2711F-PC-sk%C3%A4rm-adaptive-%C...</a><br />\nPris: 620kr, Fri frakt från Amazon</p></div>",
+      "content": "<div><p>Produkt: KOORUI E2711F 27 tums PC-skärm, FHD 1920 x 1080 100 Hz skärm, IPS<br />\nLänk: <a href=\"https://www.amazon.se/KOORUI-E2711F-PC-sk%C3%A4rm-adaptive-%C3%B6gonv%C3%A5rd/dp/B0DK12LHLK/\">https://www.amazon.se/KOORUI-E2711F-PC-sk%C3%A4rm-adaptive-%C...</a><br />\nPris: 620kr, Fri frakt från Amazon</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21335870",
+      "productUrl": "https://www.amazon.se/KOORUI-E2711F-PC-sk%C3%A4rm-adaptive-%C3%B6gonv%C3%A5rd/dp/B0DK12LHLK/",
+      "pubDate": "Sat, 28 Nov 2026 13:34:14 +0100"
+    },
+    {
+      "title": "Av: CrepSek69",
+      "description": "<div><p>Produkt: ASUS GeForce RTX 5060 Ti 8GB Dual OC<br />\nLänk: <a href=\"https://www.inet.se/produkt/5415349/asus-geforce-rtx-5060-ti-8gb-dual-oc\">https://www.inet.se/produkt/5415349/asus-geforce-rtx-5060-ti-...</a><br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/149198/asus-geforce-rtx-5060ti-dual-16gb-oc\">https://prisgeek.se/produkt/149198/asus-geforce-rtx-5060ti-du...</a><br />\nPris: 5499kr</p><p>Finns inget bättre i GPU väg om inte går betydligt högre. Kommer dock potentiellt behöva leka runt med settings så man håller sig under VRAM taket i nya spel, men lyckas man med det är det en kapabel GPU</p></div>",
+      "content": "<div><p>Produkt: ASUS GeForce RTX 5060 Ti 8GB Dual OC<br />\nLänk: <a href=\"https://www.inet.se/produkt/5415349/asus-geforce-rtx-5060-ti-8gb-dual-oc\">https://www.inet.se/produkt/5415349/asus-geforce-rtx-5060-ti-...</a><br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/149198/asus-geforce-rtx-5060ti-dual-16gb-oc\">https://prisgeek.se/produkt/149198/asus-geforce-rtx-5060ti-du...</a><br />\nPris: 5499kr</p><p>Finns inget bättre i GPU väg om inte går betydligt högre. Kommer dock potentiellt behöva leka runt med settings så man håller sig under VRAM taket i nya spel, men lyckas man med det är det en kapabel GPU</p></div>",
+      "link": "https://www.sweclockers.com/forum/post/21335831",
+      "productUrl": "https://www.inet.se/produkt/5415349/asus-geforce-rtx-5060-ti-8gb-dual-oc",
+      "pubDate": "Sat, 28 Nov 2026 12:50:40 +0100"
+    },
     {
       "title": "Av: emopingvin",
       "description": "<div><p>Produkt: Bitdefender Total Security  5 enheter / 1år<br />\nLänk: <a href=\"https://www.fanatical.com/en/software/bitdefender-total-security\">https://www.fanatical.com/en/software/bitdefender-total-secur...</a><br />\nPris: 229kr</p></div>",
@@ -232,23 +248,6 @@
       "productUrl": "https://www.ica.se/maxi/hemma/produkt/hogtalare-onyx-studio-9-harman-kardon-2165018/",
       "pubDate": "Sun, 22 Nov 2026 12:37:46 +0100",
       "image": "https://assets.icanet.se/image/upload/v1795090982/y53yaxha3w0x9qldxgir.png"
-    },
-    {
-      "title": "Av: Blade@LCD",
-      "description": "<div><p>Produkt: MSI MEG Maestro 700L<br />\nLänk: <a href=\"https://www.inet.se/produkt/6906603/msi-meg-maestro-700l\">https://www.inet.se/produkt/6906603/msi-meg-maestro-700l</a><br />\nKategori: Chassi<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/154270/msi-meg-maestro-700l\">https://prisgeek.se/produkt/154270/msi-meg-maestro-700l</a><br />\nPris: 2399 kr</p><p>MSI stora chassi nyhet för två år sedan som då kostade $400. Chassit är tillverkat i 2.5mm tjockt aluminium med 270-graders panoramaglas i ett enda stycke. Det ingår en PCIe 4.0 x16 riser-kabel och ett vertikal GPU monteringskit.</p></div>",
-      "content": "<div><p>Produkt: MSI MEG Maestro 700L<br />\nLänk: <a href=\"https://www.inet.se/produkt/6906603/msi-meg-maestro-700l\">https://www.inet.se/produkt/6906603/msi-meg-maestro-700l</a><br />\nKategori: Chassi<br />\nPrisgeek: <a href=\"https://prisgeek.se/produkt/154270/msi-meg-maestro-700l\">https://prisgeek.se/produkt/154270/msi-meg-maestro-700l</a><br />\nPris: 2399 kr</p><p>MSI stora chassi nyhet för två år sedan som då kostade $400. Chassit är tillverkat i 2.5mm tjockt aluminium med 270-graders panoramaglas i ett enda stycke. Det ingår en PCIe 4.0 x16 riser-kabel och ett vertikal GPU monteringskit.</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21330926",
-      "productUrl": "https://www.inet.se/produkt/6906603/msi-meg-maestro-700l",
-      "pubDate": "Sat, 21 Nov 2026 23:20:13 +0100"
-    },
-    {
-      "title": "Av: jussit",
-      "description": "<div><p>Såg ett erbjudande som någon kanske är intresserad av. (Kräver installation av sattelitmottagare)</p><p>Produkt: Starlink Bredband<br />\nLänk: <a href=\"https://starlink.com/se\">https://starlink.com/se</a><br />\nPris: 50% på abonnemang - ingen bindningstid, ingen uppsägningstid - ex 100 mbit 185kr/mån<br />\nT.om 30/11</p></div>",
-      "content": "<div><p>Såg ett erbjudande som någon kanske är intresserad av. (Kräver installation av sattelitmottagare)</p><p>Produkt: Starlink Bredband<br />\nLänk: <a href=\"https://starlink.com/se\">https://starlink.com/se</a><br />\nPris: 50% på abonnemang - ingen bindningstid, ingen uppsägningstid - ex 100 mbit 185kr/mån<br />\nT.om 30/11</p></div>",
-      "link": "https://www.sweclockers.com/forum/post/21330802",
-      "productUrl": "https://starlink.com/se",
-      "pubDate": "Sat, 21 Nov 2026 19:37:14 +0100",
-      "image": "https://starlink.com/assets-new/images/landing/field/v4_night_sky.webp"
     }
   ]
 }
